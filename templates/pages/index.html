@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="background animated slideInLeft" >
+<h1 class = "hayat-title animated zoomIn slower delay-1s">Hayata dair </h1><br> <h1 class="hayat-title2 animated zoomIn slower delay-1s">her şey.</h1> 
+<!--Carousel Wrapper-->
+<div class="my-carousel animated fadeIn slow delay-2s">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+		<!--Indicators-->
+		<ol class="carousel-indicators">
+		  <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+		  <li data-target="#carousel-example-2" data-slide-to="1"></li>
+		  <li data-target="#carousel-example-2" data-slide-to="2"></li>
+		</ol>
+		<!--/.Indicators-->
+		<!--Slides-->
+		<div class="carousel-inner my-carousel-inner" role="listbox">
+		  <div class="carousel-item active">
+			<div class="view">
+			  <img class="d-block w-100" src="{% static 'foto/zirve.jpg' %}"
+			   alt="First slide">
+			  <div class="mask rgba-black-light"></div>
+			</div>
+			<div class="carousel-caption">
+			  <h3 class="h3-responsive">Light mask</h3>
+			  <p>First text</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<!--Mask color-->
+			<div class="view">
+			  <img class="d-block w-100" src="{% static 'foto/IMG_0037.JPG' %}"
+				alt="Second slide">
+			  <div class="mask "></div>
+			</div>
+			<div class="carousel-caption">
+			  <h3 class="h3-responsive">Strong mask</h3>
+			  <p>Secondary text</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<!--Mask color-->
+			<div class="view">
+			  <img class="d-block w-100" src="{% static 'foto/583092_L.jpg' %}"
+				alt="Third slide">
+			  <div class="mask rgba-black-slight"></div>
+			</div>
+			<div class="carousel-caption">
+			  <h3 class="h3-responsive">Slight mask</h3>
+			  <p>Third text</p>
+			</div>
+		  </div>
+		</div>
+		<!--/.Slides-->
+		<!--Controls-->
+		<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+		<!--/.Controls-->
+	  </div>
+	  <!--/.Carousel Wrapper-->
+	</div>
+
+<h2 id = "duyurular-baslik"><b> Duyurular</b></h2>
+<ul class="duyurular-icerik">
+	<p class="duyurular-icerik-baslik"> Eylül Programı </p>
+	<li class="duyurular-icerik-icerik"><a href="aile-dizilimi.html">27-28 Eylül Antar Satya ile Aile Dizilimi (Kaleiçinde Gerçekleşecektir) </a></li>
+	<li class="duyurular-icerik-icerik"><a href="scio.html">Aydan Çerçiler ile SCIO seansları ve Bütünsel Koçluk</li></a>
+	<li class="duyurular-icerik-icerik"> <a href="elif-şandan-doygun.html">Elif Şandan Doygun ile Bireysel Nefes Seansları ve Yoga Terapi</li></a>
+
+	<p class="duyurular-icerik-baslik">Ekim Programı </p>
+	<li class="duyurular-icerik-icerik"><a href="yazı-kampı.html"> Yasemin Sungur ile Yazı Kampı (Tarihleri açıklanacak) </a></li>
+	<li class="duyurular-icerik-icerik"><a href="elif-şandan-doygun.html"> Genç ve Ergenlerle Nefes ve Yoga Çalışması</a></li>
+	<li class="duyurular-icerik-icerik"><a href="yoga-terapisi.html">Elif Şandan Doygun ile Nefes ve Yoga Bireysel Seanslar </a></li>
+	<li class="duyurular-icerik-icerik"><a href="scio.html">Aydan Çerçiler ile Bütünsel Koçluk ve Scio Görüşmeleri</li></a>
+	<li class="duyurular-icerik-icerik">Facebook ve Instagram sayfalarından duyurularımızı takip edebilirsiniz.</li>
+</ul>
+</div>
+
+
+{% endblock %}

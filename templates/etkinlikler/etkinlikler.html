@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="hizmetler-animation animated slideInLeft slower delay-1s">
+<h1 class="title-etkinlik" id = "title" style="margin-left: 9%;"> ETKİNLİKLER </h1>
+<hr class="hr-dark" style="width: 75%; margin-right: 20%;">
+</div>
+
+{% if etkinlikler %}
+<div class="hizmetler animated fadeIn slow delay-2s">
+{% for etkinlik,icer in mylist %}
+
+	<div class="hizmetler-madde" style="display: inline-block">
+		<div class="card">
+			<div class="view overlay">
+				<img class="card-img-top" src="/{{ etkinlik.resim.url }}">
+				<a>
+					<div class="mask rgba-white-slight"></div>
+				</a>
+			</div>
+			<div class="card-body rounded-bottom">
+				<a class="activator waves-effect mr-4"><i class="fas fa-share-alt white-text"></i></a>
+				<h4 style="color: #ec6c2e;">{{ etkinlik.baslik }}</h4>
+				<hr class="hr-dark">
+				<p class="card-text card-text-color mb-4" style="color: #262222eb;">{{ icer }}...</p>
+				<a href="{% url 'etkinlik_ozel' etkinlik.id %}"><button href="{% url 'etkinlik_ozel' etkinlik.id %}" class="etkinlikler-button">Ayrıntılar</button></a>
+			</div>
+		</div>
+	</div>
+
+{% endfor %}
+</div>
+{% else %}
+	<p> Etkinlik bulunmamaktır</p>
+{% endif %}
+{% endblock %}

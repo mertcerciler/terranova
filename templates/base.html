@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="text/javascript" >
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter50682853 = new Ya.Metrika2({
+                            id:50682853,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true
+                        });
+                    } catch(e) { }
+                });
+        
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/tag.js";
+        
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks2");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/50682853" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
+        <!-- links -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya|Courgette|Dancing+Script|Playball|Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/mert-style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/contents.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+
+        <!-- /links -->
+        <title>Terranova Hayat</title>
+    </head>
+    <body> 
+        <nav>
+           
+            <div class="nav-bar-outer animated fadeInRight slower" >
+            <img src="{% static 'foto/Terranova_Logo.jpg' %}" style="width: 100%; float: right; margin-top: 15%;">
+                <ul>
+                    <li {% if '/' == request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% elif 'index' in request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}
+                    style="margin-top: 100%"><a href="{% url 'index' %}">Ana Sayfa</a></li>
+                    <li {% if 'hizmetler' in request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}><a href="{% url 'hizmetler' %}">Hizmetler </a></li>
+
+                    <li {% if 'etkinlikler' in request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}><a href="{% url 'etkinlikler' %}">Etkinlikler </a></li>
+
+                    <li {% if 'bloglar' in request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}> <a href="{% url 'bloglar' %}"> Blog</a> </li>
+
+                    <li {% if 'scio' in request.path %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li>
+
+                    <li {% if 'aydan-çerçiler' in request.path  %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}><a href="{% url 'bütünsel-koçluk' %}">Aydan Çerçiler </a></li>
+
+                    <li {% if 'iletişim' in request.path  %}
+                    class = "nav-bar-element nav-bar-active"
+                    {% else %}
+                    class = "nav-bar-element"
+                    {% endif %}><a href="{% url 'iletisim' %}">iletisim</a> </li>
+                </ul>
+            </div>
+        </nav>
+       {% block content %} {% endblock %}
+       
+    <div class="footer" style="bottom: 0">  
+        <hr class="hr-dark" style="width: 100%; margin-right: 16%;">
+        <a href="https://www.instagram.com/terranova_hayat/"><img src="{% static 'foto/instagram.png' %}" class="logo-element" style="margin-left: 15%;"></a>
+        <a href="https://www.facebook.com/terranovakocluk/"><img src="{% static 'foto/facebook-logo-button.png' %}" class="logo-element"></a>
+        <a href="https://www.martidergisi.com/author/aydan-cerciler/"><img src="{% static 'foto/seagull_sea_gull-512.png' %}" class="logo-element"></a>
+        
+        <p class="footer-inner"> <b>İletişim  </b> 0530 112 09 79   a.cerciler@hotmail.com</p>
+    </div>
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
+    </body>
+</html>

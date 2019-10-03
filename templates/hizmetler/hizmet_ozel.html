@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<h1 class="hizmet_ozel_title">{{ hizmet1.baslik }}</h1>
+{% if hizmet1.resim2 %}
+<img class="etkinlik_ozel_img_2" src="/{{ hizmet1.resim2.url }}">
+{% endif %}
+<p class="hizmet_ozel_icerik"> {{ hizmet1.icerik1|linebreaksbr }}</p>
+<img class="hizmet_ozel_img" src="/{{ hizmet1.resim.url }}">
+<p class="hizmet_ozel_icerik"> {{ hizmet1.icerik2|linebreaksbr }}</p>
+
+{% endblock %}

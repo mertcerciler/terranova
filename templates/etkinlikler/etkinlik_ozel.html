@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1 class="etkinlik_ozel_title">{{ etkinlik1.baslik }}</h1>
+{% if etkinlik1.resim2 %}
+<img class="etkinlik_ozel_img_2" src="/{{ etkinlik1.resim2.url }}">
+{% endif %}
+<p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik|linebreaksbr }}</p>
+<img class="hizmet_ozel_img" src="/{{ etkinlik1.resim.url }}">
+<p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik2|linebreaksbr }}</p>
+
+{% endblock %}

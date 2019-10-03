@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<table class="content" style="margin-top: 5%">
+        <tr>
+            <td class="map-header"><b>Telefon: </b></td> 
+            <td>0530 112 09 79</td>
+            <td class="map-header"><b> Ofis Telefon: </b></td>
+            <td>0242 316 07 47</td>
+            <td class="map-header"><b>Instagram: </td></b>
+            <td>	<a href="http://Instagram.com/terranova_butunsel_kocluk" target=new><img src="http://in.sitekodlari.com/insta/21.png" border="0" class="footer-img"> </a>
+        </tr>
+         
+        <tr>
+            <td class="map-header"><b>E-mail:</b> </td>
+            <td>a.cerciler@hotmail.com</td>
+            <td class="map-header"> <b> Facebook:  </b></td>
+            <td><a href="https://www.facebook.com/terranovakocluk/" target=new><img src="http://in.sitekodlari.com/fb/facebook6.png" border="0" class="footer-img"></a></td>
+        </tr>
+        <tr>
+            <td class="map-header"><b>Adres: </b></td>
+            <td>Eski lara yolu 1506 sok no 5 kat 3 daire 6   </td> </tr><div id="map"></div>
+        <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {lat: 36.857528, lng: 30.739444};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 16, center: uluru});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+        </script>
+        <!--Load the API from the specified URL
+        * The async attribute allows the browser to render the page while the API loads
+        * The key parameter will contain your own API key (which is not needed for this tutorial)
+        * The callback parameter executes the initMap() function
+        -->
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD9Syd9Tg-lS9FCvG5a_aqhzkzIMvcpkM&callback=initMap">
+        </script>
+        
+{% endblock %}

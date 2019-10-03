@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1 class="title" id = "title" style="margin-left: 9%">Etkinlikler</h1>
+	<div class="etkinlikler-sayfa">
+	<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Elif Şandan Doygun ile Nefes Atölyesi</h3>
+			<img src="{% static 'foto/21755ba7-f9a6-432f-a673-5ff6f5cafef8.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Doğru Nefes Alma & Nefes Teknikleri Atölyesi 4 Nisan 2019 saat 10.00 da. 3 haftalık bir program; her Perşembe uygulamalı nefes tekniklerini öğreniyoruz. Nefes, her şeydir...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'elif-şandan-doygun' %}"> Daha Fazla </a></button>
+		</div>
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722; text-align: center;">Antar Satya ile Aile Dizilimi</h3>
+			<img src="{% static 'foto/45b62707-3339-4302-ad66-78b16c8cca85.jpg' %}" style="height: 300px"  class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Antar Satya ile Aile Dizilimi,<br> kişinin sıkıntılarının ya da hayatındaki tıkanıklıkların altında yatan sebepleri araştırmak ve şifa getirmek için kullanılan bir grup çalışmasıdır...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'antar-satya-ile-aile-dizilimi' %}">Daha Fazla</a></button>
+		</div>
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Elif Şandan Doygun ile Yoga Terapisi</h3>
+			<img src="{% static 'foto/42438151_2242599092642055_5546286484178337792_n.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Günümüzde pek çok kişi sırt, boyun, bel, omuz ve kalça ağrılarından sıkıntı yaşıyor. Bazı kişilerde bu ağrılar bedenin yanlış duruşundan ya da bedeni zorlamaktan...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'yoga-terapisi' %}"> Daha Fazla </a></button>
+		</div>
+	<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">YASEMİN SUNGUR İLE YAZ(I) KAMPI</h3>
+			<img src="{% static 'foto/6c1fccd9-f5c8-47ab-a5cc-09c524f57361.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">⭐🕊15,16,17 Şubat ve 8,9,10 Mart 🕊⭐ tarihlerinde 6 günlük bir atölye olarak ilk bölüm Antalya’da Terranova Koçluk Merkezinde gerçekleşecektir. ⭐Antalya iletişim... </p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'yazı-kampı' %}"> Daha Fazla </a></button>
+		</div>
+	<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">ÖZEL ÇOCUKLAR İÇİN YOGA</h3>
+			<img src="{% static 'foto/9d27386f-f695-49d8-8864-e9b898be9e8a.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Özel çocuklar için yoga dünya çapında özel ihtiyaçları olan sayısız çocuğun hayatını değiştirmiş olan tedavi edici, eşsiz bir yoga metodudur. Bu metot son derece nazik...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'çocuklar-için-yoga' %}"> Daha Fazla </a></button>
+		</div>
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Bilinçaltı Kök İnançları Değiştirelim</h3>
+			<img src="{% static 'foto/9f5ba7f2-bbcc-4597-a675-94d0def88a04.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Doğduğumuz andan yaşamımızın sonuna kadar hepimizin temel fiziksel ve duygusal ihtiyaçları vardır. Bu ihtiyaçlar; güvenlik, sevgi, saygı ve sınırdır...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'bilinçaltı-kök-inançları' %}"> Daha Fazla </a></button>
+		</div>
+		
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722; text-align: center; ">Parama Çisem ile Yoga, Meditasyon ve Nefes Teknikleri ile Kadim Kadın Çemberi </h3>
+			<img src="{% static 'foto/47396582_2282781585290472_549775519197954048_o.jpg' %}" class="etkinlikler-sayfa-madde-img" style="height: 300px"> 
+			<p class="etkinlikler-sayfa-content">Geleneksel Yoga’nın temelleri olan yedi çakra ve bes kosha (beden) algısı üzerinde durulan derslerde, farklı bilinç seviyelerine dair idrak ve kontrolün gelişmesi amaçlanır... </p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'parama-çisem' %}">Daha Fazla</a></button>
+		</div>
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Heal Your Life – Hayatınızı İyileştirin Workshop</h3>
+			<img src="{% static 'foto/b9dc0350-be6c-4d22-b95e-feb96ddcc282.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Antalya'da Terranova Koçluk Merkezinde... Team Coaching ile ortaklaşa yürüttüğümüz bu değerli çalışmayı kaçırmayın. Bir çoğumuz Louise Hay'in muhteşem kitabını biliriz....</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'bilinçaltı-kök-inançları' %}"> Daha Fazla </a></button>
+		</div>
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722; text-align: center; ">Dila Selengil Ertemli ile Bilinçaltı Kalıplarımız ve İlişkiler</h3>
+			<img src="{% static 'foto/WhatsApp Image 2018-11-13 at 7.25.12 PM.jpeg' %}" class="etkinlikler-sayfa-madde-img" style="height: 300px"> 
+			<p class="etkinlikler-sayfa-content">Sevgili Dila Selengil Ertemli ile Bilinçaltımızla ilgili çok ilginizi çekecek bir konuya değiniyoruz. "Bilinçaltı kök inançlarımızın ilişkilerimiz üzerindeki etkileri... </p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="{% url 'bilinçaltı-kalıplarımız-ve-ilişkiler' %}">Daha Fazla</a></button>
+		</div>
+		
+		
+		
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Dr. Asuman Kaplan Algın ile Sağlık ve Nefes</h3>
+			<img src="{% static 'foto/30656887_2120691158166183_735341639342513907_n.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Fazla nefes almak astım, rinit dahil olmak üzere sayısız sağlık sorununa yol açmaktadır. Fazla solunum yapma alışkanlığı, günümüz hızlı yaşamının olumsuz bir etkisi olarak...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="asuman-kaplan-algın' %}"> Daha Fazla</a></button>
+		</div>		
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722">Fatoş Berberoğlu ile Access Bilinciyle Yaşama Dair</h3>
+			<img src="{% static 'foto/30168117_2123962777839021_2905208477118238392_o.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">Olumlu veya olumsuz olayları farkında olmadan düşüncelerimizle ve bilinçaltımızda yarattığımız inançlarla hayatımıza çekebiliyoruz. Bazen yaratımın tarafımızdan gerçek...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="fatoş-berberoğlu' %}">Daha Fazla</a></button>
+		</div>
+		
+		<div class="etkinlikler-sayfa-madde" >
+			<h3 style="color: #ff5722; text-align: center;">Antar Satya ile Kadın Çemberi</h3>
+			<img src="{% static 'foto/27752226_2084737728428193_5656249718529365839_n.jpg' %}" style="height: 300px" class="etkinlikler-sayfa-madde-img">
+			<p class="etkinlikler-sayfa-content">İçinizdeki Tanrıçanın gücünü ve enerjisini yaşamaya hazır mısınız? Bu bir günlük çalışmada, her kadının doğuştan sahip olduğu Tanrıça arketipinin farklı yüzleri ile...</p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="antar-satya-ile-kadın-çemberi' %}">Daha Fazla</a></button>
+		</div>
+	
+		<div class="etkinlikler-sayfa-madde">
+			<h3 style="color: #ff5722; text-align: center; ">Seda Bağcan ile Bireysel Seanslar</h3>
+			<img src="{% static 'foto/995329_1766076773627625_166936076665174187_n.jpg' %}" class="etkinlikler-sayfa-madde-img" style="height: 300px"> 
+			<p class="etkinlikler-sayfa-content">-SCIO <br> -Reconnective Healing <br> -Reconnection <br> -İmza Hücresi<br> -Mantralar  </p>
+			<button class="btn" type="button" style="margin-left: 110px"><a href="seda-bağcan' %}">Daha Fazla</a></button>
+		</div>
+		
+		
+
+			</div>
+	<br>
+		</div>
+{% endblock %}
