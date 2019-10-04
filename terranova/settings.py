@@ -126,3 +126,8 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'terranova/static/foto')
 MEDIA_URL = 'terranova/static/foto/'
+
+try: 
+    from .local_settings import *
+except ImportError:
+    pass 
