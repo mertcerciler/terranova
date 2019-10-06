@@ -243,7 +243,6 @@ button a{
 		font-size: 3.5em;
 		font-family: 'Dancing Script', cursive;
 	}
-	
 	.background {
 		margin:0;
 		padding:0;
@@ -265,7 +264,7 @@ button a{
 		margin:0;
 		padding:0;
 		width: 100%;
-		background-position: 0% 600px;
+		background-position: 0% 500px;
     }
     .my-carousel {
         width: 100%;
