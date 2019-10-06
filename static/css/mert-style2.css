@@ -186,7 +186,6 @@ button a{
 		margin-left: 40%;
 		background: none;
 		position: fixed;
-	
 	}
 	.nav-bar-element-mobile {
 		
@@ -260,7 +259,7 @@ button a{
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
-		margin-top: 15%;
+		margin-top: 20%;
 	}
 	.background {
 		margin:0;
@@ -269,10 +268,18 @@ button a{
 		background-position: 0% 400px;
     }
     .my-carousel {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 5%;
+        width: 100%;
+        margin-top: 20%;
     }
+    #menu-mobile {
+		display: none;
+		margin:0;
+		padding:0;
+		height: 80%;
+		margin-left: 30%;
+		background: none;
+		position: fixed;
+	}
 }
 
 @media screen and (max-width: 600px) {
