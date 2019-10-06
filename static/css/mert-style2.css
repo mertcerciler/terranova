@@ -274,6 +274,7 @@ button a{
 	}
 	.my-carousel-inner {
 		border-radius: 2%;
+		height: 500px;
 	}
     #menu-mobile {
 		display: none;
