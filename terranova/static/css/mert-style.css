@@ -243,6 +243,27 @@ button a{
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
 	}
+	#duyurular-baslik {
+		display: inline-block;
+		color: #ed6d2e;
+		margin-left: 40%;
+		margin-bottom: 7%;
+		font-size: 3.5em;
+		font-family: 'Dancing Script', cursive;
+	}
+	.duyurular-icerik-baslik {
+		color: #ed6d2e;
+		font-family: 'Courgette', cursive;
+		text-align:center;	
+		font-size: 2em;
+	}
+	.duyurular-icerik-icerik {
+		list-style-type: none;
+		text-align: center;
+		color: white;
+		font-family: 'Courgette', cursive;
+		font-size: 1.5em;
+	}
 	.background {
 		margin:0;
 		padding:0;
