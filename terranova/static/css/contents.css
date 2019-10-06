@@ -145,3 +145,24 @@ body{
 	display: inline-block;
 	padding-bottom: 5%;
 }
+@media screen and (max-width: 1025px){
+	.hizmetler-madde {
+		width: 70%;
+		min-height: 60%;
+		margin-left: 20%;
+		text-decoration: none;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.blog-madde {
+		width: 70%;
+		min-height: 60%;
+		margin-left: 20%;
+		text-decoration: none;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.card-img-top {
+		width: 50%;
+	}
+}

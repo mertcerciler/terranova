@@ -221,7 +221,13 @@ button a{
 		from {height: 100%;}
 		to {height: 17%}
 	}
-	
+	.my-carousel {
+        width: 85%;
+        margin-left: 8%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
