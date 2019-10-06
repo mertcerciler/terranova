@@ -43,6 +43,7 @@
         <link rel="stylesheet" type="text/css" href="{% static 'css/contents.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
         <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/hamburgers.css' %}">
         <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
 
         <!-- /links -->
@@ -50,9 +51,8 @@
     </head>
     <body> 
         <nav>
-           
             <div class="nav-bar-outer animated fadeInRight slower" >
-            <img src="{% static 'foto/Terranova_Logo.jpg' %}" style="width: 100%; float: right; margin-top: 15%;">
+            <img src="{% static 'foto/Terranova_Logo (1).jpg' %}" class="logo">
                 <ul>
                     <li {% if '/' == request.path %}
                     class = "nav-bar-element nav-bar-active"
@@ -99,6 +99,63 @@
                     {% endif %}><a href="{% url 'iletisim' %}">iletisim</a> </li>
                 </ul>
             </div>
+            <div id = "nav-mobile">
+                <img src="{% static 'foto/Terranova_Logo (1).jpg' %}" class="logo-mobile" style="size: 18%; z-index: 2; background-color: #f1f1f1">
+                <button class="hamburger hamburger--collapse menu-icon-mobile" style="margin-right: 2%; margin-top: 2%" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div id="menu-mobile">
+                    <ul id="menu-nav-mobile-ul">
+                        <li {% if '/' == request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% elif 'index' in request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}
+                        style="margin-top: 100%"><a href="{% url 'index' %}">Ana Sayfa</a></li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'hizmetler' in request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}><a href="{% url 'hizmetler' %}">Hizmetler </a></li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'etkinlikler' in request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}><a href="{% url 'etkinlikler' %}">Etkinlikler </a></li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'bloglar' in request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}> <a href="{% url 'bloglar' %}"> Blog</a> </li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'scio' in request.path %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'aydan-çerçiler' in request.path  %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}><a href="{% url 'bütünsel-koçluk' %}">Aydan Çerçiler </a></li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        <li {% if 'iletişim' in request.path  %}
+                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
+                        {% else %}
+                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
+                        {% endif %}><a href="{% url 'iletisim' %}">iletisim</a> </li>
+                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                    </ul> 
+                </div>      
+            </div>
         </nav>
        {% block content %} {% endblock %}
        
@@ -114,5 +171,28 @@
     <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
+    <script>
+        var menu = 0;
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+        // On click
+        hamburger.addEventListener("click", function() {
+            hamburger.classList.toggle("is-active");
+            if (menu == 0){
+                document.getElementById("nav-mobile").style.animationName = "menu-mobile-animation-1";
+                document.getElementById("menu-mobile").style.display = "block";
+                document.getElementById("nav-mobile").style.webkitAnimationDuration = "2s";
+                document.getElementById("nav-mobile").style.height = "100%";
+                menu = 1;
+            }
+            else {
+                document.getElementById("nav-mobile").style.animationName = "menu-mobile-animation-2"
+                document.getElementById("menu-mobile").style.display = "none";
+                document.getElementById("nav-mobile").style.webkitAnimationDuration = "2s";
+                document.getElementById("nav-mobile").style.height = "17%";
+                menu = 0;
+            }
+        });
+      </script>
     </body>
 </html>

@@ -2,13 +2,14 @@
 p a:link{
 	text-decoration: none;
 }
-.background {
-	z-index: -1;
-	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
-	background-position: 0% 600px;
-	width: 84%;
-	padding-bottom: 5%;
+
+.logo {
+	width: 80%; 
+	float: right;
+	margin-top: 15%;
 }
+
+
 nav li a:link {
 	text-decoration: none;
 }
@@ -73,11 +74,20 @@ button a:link, button a:hover {
 	color: #ed6d2e;
 }
 
+.logo-mobile, .menu-icon-mobile, #nav-mobile, #menu-mobile  {
+	display: none;
+}
 button a{
 	color: white;
 	text-decoration: none;
 }
-
+.background {
+	z-index: -1;
+	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
+	background-position: 0% 600px;
+	width: 84%;
+	padding-bottom: 5%;
+}
 #duyurular-baslik {
 	display: inline-block;
 	color: #ed6d2e;
@@ -111,169 +121,6 @@ button a{
 	list-style-type: none;
 	text-align:center;
 }
-.calendar {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	width: 50%;
-	margin-left: 6%;
-	
-	border-radius: 10%;
-}
-.calendar tr:nth-child(odd){background-color: #f2f2f2;}
-.calendar-icon {
-	height: 10px;
-	width: 10px;
-}
-.calendar tr{
-	color:rgba(0, 0, 0, 0.6);
-}
-.calendar td{
-	padding: 1% 1%;
-	max-width: 2%;
-}
-.calendar a{
-	color:rgba(0, 0, 0, 0.6);
-	text-decoration: none;
-}
-.calendar-border-top {
-	border-top: 4px solid #e3e3f7; 
-	border-left:4px solid #e3e3f7;
-	border-right: 4px solid #e3e3f7;
-}
-.calendar-border-mid {
-	border-left:4px solid #e3e3f7;
-	border-right: 4px solid #e3e3f7;
-}
-.calendar-border-bot {
-	border-right: 4px solid #e3e3f7;
-	border-left: 4px solid #e3e3f7;
-	border-bottom: 4px solid #e3e3f7;
-}
-.etkinlik-tarihleri {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
-    width: 5%;
-    max-height: 60%;
-    margin-left: 10%;
-}
-#etkinlikTarihleri{
-	clear: both;
-	margin-left: 6%; 
-	font-family: 'Oswald'; 
-	color: #ff5722;
-}
-.etkinlik-tarihleri td, .etkinlik-tarihleri th {
-	border: 3px solid #a5b7cf;
-	padding: 1% 2% ;
-}
-.etkinlik-tarihleri td:hover {
-	background-color: #bbb;
-}
-.etkinlik-tarihleri th {
-	color: white;
-	background-color: #28528d;
-}
-.etkinlikler{
-	margin-right: 2%;
-	margin-top: 1.5%;
-	max-width: 20%;
-	min-width: 20%;
-	background-color: #f8f8fa;
-	float: right;
-	z-index: 10;
-	box-shadow: 4px 1px #969595;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
-
-.etkinlikler a {
-	color: #28528d;
-	text-decoration: none;
-}
-.etkinlikler p {
-	margin: 15% 1%;
-}
-.etkinlikler-icon{
-	float: left;
-	margin-top: -10px;
-	margin-left: 3px;  
-	width: 30px;
-	height: 30px;
-}
-
-
-
-.blog {
-	width: 80%;
-	min-height: 50%;
-    margin-left: 6%;
-    text-align: justify;
-    font-size: 18px;
-    line-height: 175%;
-    font-family:"Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-}
-.blog-background {
-	background-color: #e8e8e8;
-}
-.blog-madde{
-	width: 23%;
-	min-height: 50%;
-	margin-right: 100px;
-	text-decoration: none;
-	padding-bottom: 5%;
-	padding-top: 0;
-	display: inline-block;
-	color: black; 
-}
-.blog-madde-img {
-	width: 100%;
-    margin-bottom: 20px;
-    max-height: 300px; 
-    min-height: 300px;
-}
-.btn-hizmetler{
-	padding: 10px 20px;
-	border-radius: 10%;
-	box-shadow: none;
-	border: 1px solid transparent;
-	font-family: 'PT Sans Narrow', sans-serif;
-	background-color:#ff5722;
-	color: white;
-	font-size: 0.8em;
-	transition: all .2s ease-in-out;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: initial;
-    margin-left: 120px;
-}
-.btn-hizmetler:hover{
-	background-color: #db582e;
-	padding: 12px 25px;
-}
-.btn-blog{
-	padding: 13px;
-	box-shadow: none;
-	border: 1px solid transparent;
-	font-family: 'PT Sans Narrow', sans-serif;
-	background-color: #b53a3af0;
-	color: white;
-	transition: all .2s ease-in-out;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: initial;
-}
-.btn-blog:hover{
-	padding: 17px;
-	background-color: #b53a3a;
-}
-.blog-tmn{
-	text-decoration: underline;
-	color: red;
-	font-family: "Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
-	float: right;
-	margin-top: -4%;
-	margin-right: 11%;
-}
 .footer {
 	background-color: white;
 	height: 20%;
@@ -295,151 +142,102 @@ button a{
 	 height: 100px;  /* The height is 400 pixels */
      width: 60%;  /* The width is the width of the web page */
 }
-.aydan-content {
-	width: 70%;	
-	margin-left: 15%;
-	color: #211f1f;
-	font-size: 1em;
-	font-family: "Open Sans",Arial,sans-serif;
-	line-height: 2;
-}
 
 @media screen and (max-width: 1025px){
 	nav {
 		padding-bottom: 12%;
-		width: 120%;
+		
 		box-shadow: none;
 	}
-
-	nav img {
-		margin-top: 5%;
-		width: 30%;
+	.logo {
+		width: 20%; 
+		float: left;
+		top: 0;
 	}
-	nav ul  {
+	.logo-mobile {
+		margin-top: 1%;
+		display: block;
+		width: 20%;
+		float: left;
+		z-index: 2;
+	}
+	.nav-bar-outer {
 		display: none;
 	}
-	.menu-icon{
-		display: inline-block;
-	} 
-	
-	nav ul, nav:active ul { 
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 2px solid #444;
-		top: 60px;
-		width: 100%;
-		border-radius: 4px 0 4px 4px;
+	.nav-bar-element {
+		clear: both;
+		text-align: center;
+		margin: 5% auto;
+		
 	}
-	
-	.calendar{
-		margin-left: 5%;
-		margin-bottom: 5%;
-		font-size: 1.5em;
-		width: 100%;
-	}
-	#etkinlikTarihleri {
-		font-size: 3em;
-		margin-left: 10%;
-		margin-top: 5%;
-		margin-bottom: 5%;
-	}
-
-	#etkinlikler{
-		margin-top: 1.5%;
-		margin-left: 5%;
-		max-width: 99%;
-		min-width: 99%;
-		float: none;
-		padding-bottom: 1%;
-		font-size: 1.5em;
-	}
-	.etkinlikler p {
-		margin: 2% 3%;
-	}
-
-	nav li {
-		width: 100%;
-		padding: 10px 0;
-		margin: 3% 0;
+	#nav-mobile {
+		display: block;
 		border-bottom: 2px solid #204c89;
-		font-size: 2.2em;
+		background-color: white;
+		height: 17%;
+		margin:0;
+		position: fixed;
+		padding:0;
+		z-index: 2;
 	}
-	.slideshow-container {
-		margin-left: 5%;
-		width: 100%;
+	.menu-icon-mobile {
+		float: right;
+		display: block;
 	}
-	.prev, .next {
-		size: 2em;
-	}
-	.mySlides {
-		width: 100%;
-	}
-	.dropdown-content a, .dropdown-content{
+	#menu-mobile {
 		display: none;
-		border-top: none;
+		margin:0;
+		padding:0;
+		height: 80%;
+		margin-left: 40%;
+		background: none;
+		position: fixed;
+	
+	}
+	.nav-bar-element-mobile {
+		
+		color: black;
+		font-family: 'Acme', sans-serif;
+		list-style-type: none;
 		z-index: -1;
-	}
-	.dropdown:hover .dropdown-content {
-		display: none;
-	}
-	.dropdown{
-		display: none;
-	}
-	.hizmetler-madde{
+		font-size: 1.3em;
+		text-transform:  uppercase;
 		width: 100%;
-		height: 100%;
+		margin-top: 15%;
 	}
-
-	.btn-hizmetler {
-		font-size: 2em;
-		width: 30%;
-		margin-left: 0px;
+	.nav-bar-element-mobile a {
+		color: black;
+		
 	}
-	.hizmetler-madde img{
-		height: 50%;
-		width: 100%;
+	
+	.nav-bar-active a {
+		color:#ed6d2e;
 	}
-	.hizmetler-madde h4{
-		text-align: left;
-		margin-left: 0px;
+	@keyframes menu-mobile-animation-1 {
+		from {height: 17%;}
+		to {height: 100%}
+	}
+	@keyframes menu-mobile-animation-2 {
+		from {height: 100%;}
+		to {height: 17%}
+	}
+	
+	.hayat-title {
+		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
 	}
-	.hizmetler-madde p{
-		font-size: 2em;
-		line-height: 150%;
-	}
-	#blog-baslık{
+	.hayat-title2 {
+		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
 	}
-	.btn-blog {
-		font-size: 2em;
-		width: 30%;
-		margin-left: 0px;
-	}
-	.blog-madde{
+	.background {
+		margin:0;
+		padding:0;
 		width: 100%;
-		min-height: 90%;
 	}
-	.blog-madde-img{
-		min-height: 50%;
+	.footer {
+		margin:0;
+		padding:0;
 		width: 100%;
-		max-height: 50%;
-	}
-	.blog-madde h4{
-		text-align: left;
-		margin-left: 0px;
-		font-size: 3em;
-	}
-	.blog-madde p{
-		font-size: 2em;
-		line-height: 150%;
-	}
-	.menu-nav {
-		z-index: 1;
-	}
-	.aydan-content{
-		width: 90%;
 	}
 }
