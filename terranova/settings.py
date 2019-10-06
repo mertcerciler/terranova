@@ -124,8 +124,8 @@ STATICFILES_DIRS = [
 
 #Media Folder Settings
 
-MEDIA_ROOT = os.path.join(BASE_DIR, '/static/foto')
-MEDIA_URL = '/static/foto/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/foto')
+MEDIA_URL = 'static/foto/'
 
 try: 
     from .local_settings import *
