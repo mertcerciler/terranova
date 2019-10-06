@@ -301,7 +301,7 @@ button a{
 		height: 500px;
         margin-left: 0%;
 		margin-top: 35%;
-		border-radius: 0%;
+		border-radius: none;
     }
     #menu-mobile {
 		display: none;
