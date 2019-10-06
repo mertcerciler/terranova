@@ -155,20 +155,14 @@ button a{
 		top: 0;
 	}
 	.logo-mobile {
-		margin-top: 1%;
+		margin-top: 4%;
 		display: block;
 		width: 20%;
 		float: left;
-		z-index: 2;
+        z-index: 2;
 	}
 	.nav-bar-outer {
 		display: none;
-	}
-	.nav-bar-element {
-		clear: both;
-		text-align: center;
-		margin: 5% auto;
-		
 	}
 	#nav-mobile {
 		display: block;
