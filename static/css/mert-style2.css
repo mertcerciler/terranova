@@ -268,8 +268,8 @@ button a{
 		background-position: 0% 400px;
     }
     .my-carousel {
-		width: 100%;
-		left: 0;
+		width: 90%;
+		height: 100%;
         margin-top: 20%;
     }
     #menu-mobile {
