@@ -217,11 +217,19 @@ button a{
 		from {height: 17%;}
 		to {height: 100%}
 	}
+	@-webkit-keyframes menu-mobile-animation-1  {
+		from {height: 17%;}
+		to {height: 100%}
+	}
 	@keyframes menu-mobile-animation-2 {
 		from {height: 100%;}
 		to {height: 17%}
 	}
-	
+	@-webkit-keyframes menu-mobile-animation-2  {
+		from {height: 100%;}
+		to {height: 17%}
+	}
+	  
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
