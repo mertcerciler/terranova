@@ -267,7 +267,12 @@ button a{
 		padding:0;
 		width: 100%;
 		background-position: 0% 400px;
-	}
+    }
+    .my-carousel {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
 }
 
 @media screen and (max-width: 600px) {

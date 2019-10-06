@@ -143,7 +143,7 @@ button a{
      width: 60%;  /* The width is the width of the web page */
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 992px){
 	nav {
 		padding-bottom: 12%;
 		
@@ -155,20 +155,14 @@ button a{
 		top: 0;
 	}
 	.logo-mobile {
-		margin-top: 1%;
+		margin-top: 4%;
 		display: block;
 		width: 20%;
 		float: left;
-		z-index: 2;
+        z-index: 2;
 	}
 	.nav-bar-outer {
 		display: none;
-	}
-	.nav-bar-element {
-		clear: both;
-		text-align: center;
-		margin: 5% auto;
-		
 	}
 	#nav-mobile {
 		display: block;
@@ -207,9 +201,13 @@ button a{
 	}
 	.nav-bar-element-mobile a {
 		color: black;
-		
 	}
-	
+
+    .my-carousel {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
 	.nav-bar-active a {
 		color:#ed6d2e;
 	}
@@ -229,15 +227,24 @@ button a{
 		from {height: 100%;}
 		to {height: 17%}
 	}
-	  
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
+		margin-top: 12%;
 	}
 	.hayat-title2 {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
 	}
+	#duyurular-baslik {
+		display: inline-block;
+		color: #ed6d2e;
+		margin-left: 1%;
+		margin-bottom: 7%;
+		font-size: 3.5em;
+		font-family: 'Dancing Script', cursive;
+	}
+	
 	.background {
 		margin:0;
 		padding:0;
@@ -247,5 +254,37 @@ button a{
 		margin:0;
 		padding:0;
 		width: 100%;
+	}
+}
+@media screen and (max-width: 768px){
+	.hayat-title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+		margin-top: 15%;
+	}
+	.background {
+		margin:0;
+		padding:0;
+		width: 100%;
+		background-position: 0% 400px;
+    }
+    .my-carousel {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.hayat-title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+		margin-top: 20%;
+	}
+	.background {
+		margin:0;
+		padding:0;
+		width: 100%;
+		background-position: 0% 350px;
 	}
 }
