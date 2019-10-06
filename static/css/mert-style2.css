@@ -316,4 +316,10 @@ button a{
 		background: none;
 		position: fixed;
 	}
+	.duyurular-icerik-baslik {
+		margin-left: -5%;
+	}
+	.duyurular-icerik-icerik {
+		margin-left: -5%;
+	}
 }
