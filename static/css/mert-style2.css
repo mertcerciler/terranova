@@ -238,7 +238,7 @@ button a{
 	#duyurular-baslik {
 		display: inline-block;
 		color: #ed6d2e;
-		margin-left: 25%;
+		margin-left: 28%;
 		margin-bottom: 7%;
 		font-size: 3.5em;
 		font-family: 'Dancing Script', cursive;
@@ -270,7 +270,7 @@ button a{
     .my-carousel {
         width: 100%;
         margin-left: 0%;
-		margin-top: 50%;
+		margin-top: 35%;
 		border-radius: 2%;
     }
     #menu-mobile {
