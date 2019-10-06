@@ -259,7 +259,7 @@ button a{
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
-		margin-top: 20%;
+		margin-top: 100%;
 	}
 	.background {
 		margin:0;
@@ -270,7 +270,8 @@ button a{
     .my-carousel {
         width: 100%;
         margin-left: 0%;
-        margin-top: 20%;
+		margin-top: 50%;
+		border-radius: 2%;
     }
     #menu-mobile {
 		display: none;
