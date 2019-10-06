@@ -271,8 +271,10 @@ button a{
 		height: 500px;
         margin-left: 0%;
 		margin-top: 35%;
-		border-radius: 0%;
-    }
+	}
+	.my-carousel-inner {
+		border-radius: 2%;
+	}
     #menu-mobile {
 		display: none;
 		margin:0;
@@ -321,5 +323,8 @@ button a{
 	}
 	.duyurular-icerik-icerik {
 		margin-left: -5%;
+	}
+	.my-carousel-inner {
+		border-radius: 2%;
 	}
 }
