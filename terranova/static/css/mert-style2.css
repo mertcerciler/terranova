@@ -109,6 +109,12 @@ button a{
 	font-family: 'Courgette', cursive;
 	font-size: 1.5em;
 }
+.h3-responsive {
+	background-color: #f24f20;
+	border-radius: 5%;
+	padding: 2% 4%;
+	font-style: italic;
+}
 .duyurular-icerik-icerik a{
 	color: white;
 	font-family: 'Courgette', cursive;
@@ -188,7 +194,6 @@ button a{
 		position: fixed;
 	}
 	.nav-bar-element-mobile {
-		
 		color: black;
 		font-family: 'Acme', sans-serif;
 		list-style-type: none;
@@ -201,7 +206,6 @@ button a{
 	.nav-bar-element-mobile a {
 		color: black;
 	}
-
     .my-carousel {
         width: 80%;
         margin-left: 10%;
@@ -238,12 +242,11 @@ button a{
 	#duyurular-baslik {
 		display: inline-block;
 		color: #ed6d2e;
-		margin-left: 25%;
+		margin-left: 28%;
 		margin-bottom: 7%;
 		font-size: 3.5em;
 		font-family: 'Dancing Script', cursive;
 	}
-	
 	.background {
 		margin:0;
 		padding:0;
@@ -259,19 +262,22 @@ button a{
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
-		margin-top: 15%;
+		margin-top: 50%;
 	}
 	.background {
 		margin:0;
 		padding:0;
 		width: 100%;
-		background-position: 0% 400px;
+		background-position: 0% 500px;
     }
     .my-carousel {
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 5%;
-    }
+		width: 100%;
+        margin-left: 0%;
+		margin-top: 35%;
+	}
+	.my-carousel-inner {
+		border-radius: 2%;
+	}
     #menu-mobile {
 		display: none;
 		margin:0;
@@ -286,13 +292,41 @@ button a{
 @media screen and (max-width: 600px) {
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
-		margin-top: 20%;
+		font-size: 5em;
+		margin-top: 50%;
+	}
+	.hayat-title2 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 5em;
 	}
 	.background {
 		margin:0;
 		padding:0;
 		width: 100%;
-		background-position: 0% 350px;
+		background-position: 0% 500px;
+    }
+    .my-carousel {
+		width: 100%;
+        margin-left: 0%;
+		margin-top: 35%;
+		border-radius: none;
+    }
+    #menu-mobile {
+		display: none;
+		margin:0;
+		padding:0;
+		height: 80%;
+		margin-left: 30%;
+		background: none;
+		position: fixed;
+	}
+	.duyurular-icerik-baslik {
+		margin-left: -5%;
+	}
+	.duyurular-icerik-icerik {
+		margin-left: -5%;
+	}
+	.my-carousel-inner {
+		border-radius: 2%;
 	}
 }
