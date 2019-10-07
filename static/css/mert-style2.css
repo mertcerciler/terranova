@@ -109,6 +109,9 @@ button a{
 	font-family: 'Courgette', cursive;
 	font-size: 1.5em;
 }
+.h3-responsive {
+	background-color: #ed6d2e;
+}
 .duyurular-icerik-icerik a{
 	color: white;
 	font-family: 'Courgette', cursive;
