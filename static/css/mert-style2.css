@@ -115,6 +115,7 @@ button a{
 	float: left;
 	margin-left: 0;
 	left: 0;
+	padding: 0 5%;
 }
 .duyurular-icerik-icerik a{
 	color: white;
