@@ -113,6 +113,8 @@ button a{
 	background-color: #ed6d2e;
 	border-radius: 5%;
 	float: left;
+	margin-left: 0;
+	left: 0;
 }
 .duyurular-icerik-icerik a{
 	color: white;
