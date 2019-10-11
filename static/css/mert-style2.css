@@ -231,12 +231,12 @@ button a{
 	}
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
+		font-size: 5em;
 		margin-top: 12%;
 	}
 	.hayat-title2 {
 		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
+		font-size: 5em;
 	}
 	#duyurular-baslik {
 		display: inline-block;
@@ -274,6 +274,7 @@ button a{
         margin-left: 0%;
 		margin-top: 35%;
 	}
+	
 	.my-carousel-inner {
 		border-radius: 2%;
 	}
@@ -285,6 +286,15 @@ button a{
 		margin-left: 30%;
 		background: none;
 		position: fixed;
+	}
+	.hayat-title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+		margin-top: 12%;
+	}
+	.hayat-title2 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
 	}
 }
 
