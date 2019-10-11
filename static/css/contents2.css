@@ -147,7 +147,9 @@ body{
 @media screen and (max-width: 1025px){
 	.hizmetler-madde {
 		width: 100%;
-		text-decoration: none;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
         padding-bottom: 5%;
         margin-bottom: 15%;
 	}
