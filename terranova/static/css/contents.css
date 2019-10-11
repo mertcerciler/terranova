@@ -146,13 +146,19 @@ body{
 }
 @media screen and (max-width: 1025px){
 	.hizmetler-madde {
-		width: 80%;
-		min-height: 80%;
-		margin-left: 10%;
-		margin-right: 0px;
+		width: 100%;
 		text-decoration: none;
-		display: inline-block;
 		padding-bottom: 5%;
+	}
+	.title-etkinlik, #title {
+		margin-top: 100%;
+	}
+	.card-text-color {
+		color: #262222eb;
+		font-size: 0.7em;
+	}
+	.card {
+		width: 100%;
 	}
 	.blog-madde {
 		width: 70%;
@@ -161,8 +167,5 @@ body{
 		text-decoration: none;
 		display: inline-block;
 		padding-bottom: 5%;
-	}
-	.card-img-top {
-		width: 50%;
 	}
 }
