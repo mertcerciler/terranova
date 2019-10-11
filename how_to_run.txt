@@ -5,7 +5,7 @@
 3. Herhangi bir þey eklemek için:
 	Visual Studio Code: 
 		a) git add . 
-		b) git Commit -m 'Mobile ..' 
+		b) git commit -m 'Mobile ..' 
 		c) git push 
 	Terminal:
 		a) git pull 
