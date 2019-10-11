@@ -281,7 +281,11 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
-	}
+    }
+    #nav-mobile {
+        height: 14%;
+        position: fixed;
+    }
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 3em;
@@ -317,9 +321,12 @@ button a{
 		border-radius: none;
     }
     #menu-mobile {
-		
 		position: fixed;
-	}
+    }
+    #nav-mobile {
+        height: 14%;
+        position: fixed;
+    }
 	.duyurular-icerik-baslik {
 		margin-left: -5%;
 	}
