@@ -155,7 +155,7 @@ body{
         padding-bottom: 5%;
         margin-bottom: 15%;
 	}
-	.title-etkinlik, #title {
+	.title-etkinlik, .title-blog, .title-hizmetler, #title {
         margin-top: 15%;
 	}
 	.card-text-color {
