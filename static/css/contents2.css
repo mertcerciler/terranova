@@ -145,6 +145,16 @@ body{
 	padding-bottom: 5%;
 }
 @media screen and (max-width: 1025px){
+	.hizmetler-madde {
+		width: 45%;
+        text-decoration: none;
+        padding: 0;
+		margin: 0;
+		margin-left: 5%;
+		display: inline;
+        padding-bottom: 5%;
+        margin-bottom: 15%;
+	}
 	.title-etkinlik, #title {
         margin-top: 15%;
 	}
