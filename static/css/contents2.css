@@ -158,6 +158,9 @@ body{
 	.title-etkinlik, .title-blog, .title-hizmetler, #title {
         margin-top: 15%;
 	}
+	.hr-dark{
+		margin-right: 18%;
+	}
 	.card-text-color {
 		color: #262222eb;
 		font-size: 0.7em;
