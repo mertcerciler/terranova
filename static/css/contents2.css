@@ -145,7 +145,7 @@ body{
 	padding-bottom: 5%;
 }
 @media screen and (max-width: 1025px){
-	.hizmetler-madde {
+	.hizmetler-madde, .blog-madde {
 		width: 45%;
         text-decoration: none;
         padding: 0;
@@ -178,7 +178,7 @@ body{
 	.title-etkinlik, #title {
 		margin-top: 30%; 
 	}
-	.hizmetler-madde {
+	.hizmetler-madde, .blog-madde {
 		width: 90%;
         text-decoration: none;
         padding: 0;
@@ -193,7 +193,7 @@ body{
 	.title-etkinlik, #title {
         margin-top: 30%;
 	}
-	.hizmetler-madde {
+	.hizmetler-madde, .blog-madde {
 		width: 100%;
         text-decoration: none;
         padding: 0;
