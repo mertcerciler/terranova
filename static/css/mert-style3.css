@@ -262,9 +262,11 @@ button a{
 		width: 20%;
 	}
 	.hayat-title {
-		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
+		font-size: 5em;
 		margin-top: 50%;
+	}
+	.hayat-title2 {
+		font-size: 5em;
 	}
 	.background {
 		margin:0;
@@ -288,15 +290,7 @@ button a{
         height: 14%;
         position: fixed;
     }
-	.hayat-title {
-		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
-		margin-top: 12%;
-	}
-	.hayat-title2 {
-		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
-	}
+	
 }
 
 @media screen and (max-width: 600px) {
