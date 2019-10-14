@@ -263,7 +263,7 @@ button a{
 	}
 	.hayat-title {
 		font-size: 5em;
-		margin-top: 50%;
+		margin-top: 40%;
 	}
 	.hayat-title2 {
 		font-size: 5em;
@@ -294,6 +294,13 @@ button a{
 }
 
 @media screen and (max-width: 600px) {
+    #menu-mobile {
+		position: fixed;
+    }
+    #nav-mobile {
+        height: 10%;
+        position: fixed;
+    }
 	.logo {
 		width: 20%;
 	}
@@ -319,13 +326,7 @@ button a{
 		margin-top: 35%;
 		border-radius: none;
     }
-    #menu-mobile {
-		position: fixed;
-    }
-    #nav-mobile {
-        height: 14%;
-        position: fixed;
-    }
+   
 	.duyurular-icerik-baslik {
 		margin-left: -5%;
 	}
