@@ -173,7 +173,7 @@ button a{
 		display: block;
 		border-bottom: 2px solid #204c89;
 		background-color: white;
-		height: 20%;
+		height: 22%;
 		margin:0;
 		position: fixed;
 		padding:0;
@@ -300,7 +300,7 @@ button a{
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
 		font-size: 5em;
-		margin-top: 50%;
+		margin-top: 40%;
     }
     
 	.hayat-title2 {
