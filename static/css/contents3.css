@@ -205,5 +205,8 @@ body{
 		margin-left: 0px;
         padding-bottom: 5%;
         margin-bottom: 15%;
-	}
+    }
+    .hizmet_ozel_title, .etkinlik_ozel_title, .blog_ozel_title {
+        margin-top: 10%;
+    }
 }
