@@ -29,10 +29,6 @@
 	</div>
 
 {% endfor %}
-
-{% else %}
-	<p> Hizmet bulunmamaktır</p>
-{% endif %}
 <div class="hizmetler-madde" style="display: inline-block">
 	<div class="card">
 		<div class="view overlay">
@@ -55,6 +51,10 @@
 		</div>
 	</div>
 </div>
+{% else %}
+	<p> Hizmet bulunmamaktır</p>
+{% endif %}
+
 </div>
 
 {% endblock %}
