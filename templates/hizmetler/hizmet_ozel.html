@@ -1,12 +1,54 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<h1 class="hizmet_ozel_title">{{ hizmet1.baslik }}</h1>
-{% if hizmet1.resim2 %}
-<img class="etkinlik_ozel_img_2" src="/{{ hizmet1.resim2.url }}">
-{% endif %}
+<style>
+    .hizmet-bg {
+        background-image: url("/{{ hizmet1.resim.url}}");
+        height: 100%;
+        width: 74%;
+        padding: 5%;
+        border-radius: 1%;
+        margin-left: 5%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        
+    }
+    .hizmet-bg a {
+        display: none;
+        font-size: 35px;
+        color: #ffffff !important;
+        font-family: sans-serif;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+</style>
+<div class="view overlay zoom_img">
+        <!-- <img src="/{{ hizmet1.resim.url}}" class="hizmet-bg"> -->
+        <div class="hizmet-bg">
+        <div class="mask center">
+        <a href="#">{{ hizmet1.baslik }}</h1>
+    </div>
+    </div>
+</div>
+
+
+
 <p class="hizmet_ozel_icerik"> {{ hizmet1.icerik1|linebreaksbr }}</p>
-<img class="hizmet_ozel_img" src="/{{ hizmet1.resim.url }}">
+<!-- {% if hizmet1.resim2 %}
+<img class="etkinlik_ozel_img_1" src="/{{ hizmet1.resim2.url }}">
+{% endif %} -->
 <p class="hizmet_ozel_icerik"> {{ hizmet1.icerik2|linebreaksbr }}</p>
+<!--Zoom effect-->
+<!--Zoom effect-->
 
 {% endblock %}

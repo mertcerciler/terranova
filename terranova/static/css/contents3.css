@@ -83,12 +83,8 @@ body{
 	border-radius: 5%;
 	margin-top: 4%;
 	margin-bottom: 4%;
-	background-color: rgba(52, 73, 94, 0.75);
+	background-color: rgba(52, 73, 94, 0.75); 	
 }
-.zoom_img, .zoom video {
-  transition: all 0.2s linear; }
-
-
 
 .title-etkinlik {
 	color: #ec6c2e;
