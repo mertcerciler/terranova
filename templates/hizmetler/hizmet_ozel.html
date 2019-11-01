@@ -13,33 +13,22 @@
         background-repeat: no-repeat;
         background-size: cover;
         cursor: pointer;
-        
     }
-    .hizmet-bg a {
-        display: none;
-        font-size: 35px;
-        color: #ffffff !important;
-        font-family: sans-serif;
+    .baslik {
+        color: white;
         text-align: center;
-        margin: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        height: 50px;
-        cursor: pointer;
-        text-decoration: none;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        background-color: #020c4694;
+        border-radius: 3%;
     }
 </style>
-<div class="view overlay zoom_img">
-        <!-- <img src="/{{ hizmet1.resim.url}}" class="hizmet-bg"> -->
-        <div class="hizmet-bg">
-        <div class="mask center">
-        <a href="#">{{ hizmet1.baslik }}</h1>
-    </div>
-    </div>
+
+
+<div class="hizmet-bg">
+    <p class="baslik">{{ hizmet1.baslik }}</h1>
 </div>
+
 
 
 
