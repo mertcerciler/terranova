@@ -94,8 +94,7 @@ body{
 	margin-bottom: 4%;
 	background-color: rgba(52, 73, 94, 0.75);
 }
-.zoom_img, .zoom video {
-  transition: all 0.2s linear; }
+
 .title-etkinlik {
 	color: #ec6c2e;
 	font-family: "Dancing Script",Arial,sans-serif;
@@ -189,7 +188,7 @@ body{
 		padding-bottom: 5%;
 	}
 	.hizmet-bg {
-		margin-top: 20%;
+		margin-top: 10%;
 		width: 100%;
 		margin-left: 0;	
 	}
@@ -211,7 +210,7 @@ body{
         margin-bottom: 15%;
 	}
 	.hizmet-bg {
-		margin-top: 20%;
+		margin-top: 15%;
 		width: 100%;
 		margin-left: 0;
 	}
@@ -238,7 +237,7 @@ body{
         margin-top: 10%;
 	}
 	.hizmet-bg {
-		margin-top: 20%;
+		margin-top: 15%;
 		width: 100%;
 		margin-left: 0;
 	}
