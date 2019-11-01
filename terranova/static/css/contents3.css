@@ -217,6 +217,7 @@ body{
 	}
 	.hizmet_ozel_baslik {
 		font-size: 1em;
+		font-weight: bold;
 	}
 }
 
@@ -243,5 +244,6 @@ body{
 	}
 	.hizmet_ozel_baslik {
 		font-size: 1em;
+		font-weight: bold;
 	}
 }
