@@ -68,7 +68,6 @@ body{
 	line-height: 2em;
 }
 .hizmet-bg {
-	background-image: url("/{{ hizmet1.resim.url}}");
 	height: 100%;
 	width: 74%;
 	padding: 5%;
@@ -97,9 +96,6 @@ body{
 }
 .zoom_img, .zoom video {
   transition: all 0.2s linear; }
-
-
-
 .title-etkinlik {
 	color: #ec6c2e;
 	font-family: "Dancing Script",Arial,sans-serif;
