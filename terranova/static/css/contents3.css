@@ -229,5 +229,10 @@ body{
     }
     .hizmet_ozel_title, .etkinlik_ozel_title, .blog_ozel_title {
         margin-top: 10%;
-    }
+	}
+	.hizmet-bg {
+		margin-top: 20%;
+		width: 100%;
+		margin-left: 0;
+	}
 }
