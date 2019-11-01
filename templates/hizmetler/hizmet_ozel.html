@@ -1,32 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<style>
-    .hizmet-bg {
-        background-image: url("/{{ hizmet1.resim.url}}");
-        height: 100%;
-        width: 74%;
-        padding: 5%;
-        border-radius: 1%;
-        margin-left: 5%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-    }
-    .baslik {
-        color: white;
-        text-align: center;
-        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        background-color: #020c4694;
-        border-radius: 3%;
-    }
-</style>
 
 
-<div class="hizmet-bg">
-    <p class="baslik">{{ hizmet1.baslik }}</h1>
+
+<div class="hizmet-bg" style="background-image: url('/{{ hizmet1.resim.url}}');">
+    <p class="hizmet_ozel_baslik" >{{ hizmet1.baslik }}</h1>
 </div>
 
 

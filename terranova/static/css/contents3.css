@@ -67,15 +67,24 @@ body{
 	margin-right: 20%;
 	line-height: 2em;
 }
-.hizmet_ozel_title {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 2em;
-	text-align: center;
-	margin-right: 7%;
-	margin-top: 4%;
-	/*color: #293341;*/
+.hizmet-bg {
+	height: 100%;
+	width: 74%;
+	padding: 5%;
+	border-radius: 1%;
+	margin-left: 5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.hizmet_ozel_baslik {
 	color: white;
-	margin-bottom: 2%;
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	background-color: #020c4694;
+	border-radius: 3%;
 }
 .hizmet_ozel_img {
 	width: 35%;
@@ -83,9 +92,10 @@ body{
 	border-radius: 5%;
 	margin-top: 4%;
 	margin-bottom: 4%;
-	background-color: rgba(52, 73, 94, 0.75); 	
+	background-color: rgba(52, 73, 94, 0.75);
 }
-
+.zoom_img, .zoom video {
+  transition: all 0.2s linear; }
 .title-etkinlik {
 	color: #ec6c2e;
 	font-family: "Dancing Script",Arial,sans-serif;
@@ -191,6 +201,9 @@ body{
 		margin-left: 5%;
         padding-bottom: 5%;
         margin-bottom: 15%;
+	}
+	.hizmet-bg {
+		margin-top: 25%;
 	}
 }
 
