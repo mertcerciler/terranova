@@ -191,7 +191,10 @@ body{
 	.hizmet-bg {
 		margin-top: 20%;
 		width: 100%;
-		margin-left: 0;
+		margin-left: 0;	
+	}
+	.hizmet_ozel_baslik {
+		font-size: 2em;
 	}
 }
 @media screen and (max-width: 768px){
@@ -211,6 +214,9 @@ body{
 		margin-top: 20%;
 		width: 100%;
 		margin-left: 0;
+	}
+	.hizmet_ozel_baslik {
+		font-size: 1em;
 	}
 }
 
@@ -234,5 +240,8 @@ body{
 		margin-top: 20%;
 		width: 100%;
 		margin-left: 0;
+	}
+	.hizmet_ozel_baslik {
+		font-size: 1em;
 	}
 }
