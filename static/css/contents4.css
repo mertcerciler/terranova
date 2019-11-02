@@ -222,6 +222,9 @@ body{
 	.hizmet_ozel_baslik {
 		font-size: 1.3em;
 		font-weight: bold;
+    }
+    .hizmet_ozel_icerik {
+		margin-right: 2%;
 	}
 }
 
@@ -250,5 +253,8 @@ body{
 	.hizmet_ozel_baslik {
 		font-size: 1.3em;
 		font-weight: bold;
+    }
+    .hizmet_ozel_icerik {
+		margin-right: 2%;
 	}
 }
