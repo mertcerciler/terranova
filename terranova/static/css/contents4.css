@@ -91,6 +91,7 @@ body{
     font-weight: bold;
     margin-top: 5%;
     margin-left: 5%;
+    font-size: 1.7em;
 }
 .hizmet_ozel_img {
 	width: 35%;
@@ -204,8 +205,9 @@ body{
 	}
 	.hizmet_ozel_icerik {
         margin-right: 5%;
-        margin-top: 10%;
-	}
+        margin-top: 5%;
+    }
+    
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -233,7 +235,10 @@ body{
     .hizmet_ozel_icerik {
         margin-right: 2%;
         margin-top: 10%;
-	}
+    }
+    .hizmet_ozel_alt_baslik {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -265,5 +270,8 @@ body{
     .hizmet_ozel_icerik {
         margin-right: 2%;
         margin-top: 10%;
-	}
+    }
+    .hizmet_ozel_alt_baslik {
+        font-size: 1.2em;
+    }
 }

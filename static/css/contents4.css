@@ -91,6 +91,7 @@ body{
     font-weight: bold;
     margin-top: 5%;
     margin-left: 5%;
+    font-size: 1.7em;
 }
 .hizmet_ozel_img {
 	width: 35%;
@@ -236,7 +237,7 @@ body{
         margin-top: 10%;
     }
     .hizmet_ozel_alt_baslik {
-        font-size: 0.5em;
+        font-size: 1.2em;
     }
 }
 
@@ -271,6 +272,6 @@ body{
         margin-top: 10%;
     }
     .hizmet_ozel_alt_baslik {
-        font-size: 0.5em;
+        font-size: 1.2em;
     }
 }
