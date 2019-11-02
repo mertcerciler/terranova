@@ -188,9 +188,10 @@ body{
 		padding-bottom: 5%;
 	}
 	.hizmet-bg {
-		margin-top: 10%;
+		margin-top: 5%;
 		width: 100%;
 		margin-left: 0;	
+		padding: 10% 0%;
 	}
 	.hizmet_ozel_baslik {
 		font-size: 2em;
@@ -210,12 +211,13 @@ body{
         margin-bottom: 15%;
 	}
 	.hizmet-bg {
-		margin-top: 9%;
+		margin-top: 6%;
 		width: 100%;
 		margin-left: 0;
+		padding: 10% 0%;
 	}
 	.hizmet_ozel_baslik {
-		font-size: 1em;
+		font-size: 1.3em;
 		font-weight: bold;
 	}
 }
@@ -237,12 +239,13 @@ body{
         margin-top: 10%;
 	}
 	.hizmet-bg {
-		margin-top: 9%;
+		margin-top: 6%;
 		width: 100%;
 		margin-left: 0;
+		padding: 10% 0%;
 	}
 	.hizmet_ozel_baslik {
-		font-size: 1em;
+		font-size: 1.3em;
 		font-weight: bold;
 	}
 }
