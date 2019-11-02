@@ -204,8 +204,9 @@ body{
 	}
 	.hizmet_ozel_icerik {
         margin-right: 5%;
-        margin-top: 10%;
-	}
+        margin-top: 5%;
+    }
+    
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -233,7 +234,10 @@ body{
     .hizmet_ozel_icerik {
         margin-right: 2%;
         margin-top: 10%;
-	}
+    }
+    .hizmet_ozel_alt_baslik {
+        font-size: 0.5em;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -265,5 +269,8 @@ body{
     .hizmet_ozel_icerik {
         margin-right: 2%;
         margin-top: 10%;
-	}
+    }
+    .hizmet_ozel_alt_baslik {
+        font-size: 0.5em;
+    }
 }
