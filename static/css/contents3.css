@@ -196,6 +196,9 @@ body{
 	.hizmet_ozel_baslik {
 		font-size: 2em;
 	}
+	.hizmet_ozel_icerik {
+		margin-right: 5%;
+	}
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
