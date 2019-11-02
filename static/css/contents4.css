@@ -197,7 +197,8 @@ body{
 		font-size: 2em;
 	}
 	.hizmet_ozel_icerik {
-		margin-right: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
 	}
 }
 @media screen and (max-width: 768px){
@@ -224,7 +225,8 @@ body{
 		font-weight: bold;
     }
     .hizmet_ozel_icerik {
-		margin-right: 2%;
+        margin-right: 2%;
+        margin-top: 10%;
 	}
 }
 
@@ -255,6 +257,7 @@ body{
 		font-weight: bold;
     }
     .hizmet_ozel_icerik {
-		margin-right: 2%;
+        margin-right: 2%;
+        margin-top: 10%;
 	}
 }
