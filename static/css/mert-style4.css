@@ -195,7 +195,7 @@ button a{
 		margin:0;
 		padding:0;
 		height: 80%;
-		margin-left: 40%;
+		text-align: center;
 		background: none;
 		position: fixed;
 	}
@@ -292,7 +292,6 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
-		margin-left: 25%;
     }
     #nav-mobile {
         height: 14%;
@@ -304,7 +303,6 @@ button a{
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
-		margin-left: 25%;
     }
     #nav-mobile {
         height: 10%;
