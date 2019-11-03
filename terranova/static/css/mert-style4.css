@@ -195,9 +195,9 @@ button a{
 		margin:0;
 		padding:0;
 		height: 80%;
-		text-align: center;
 		background: none;
 		position: fixed;
+		margin-left: 38%;
 	}
 	.nav-bar-element-mobile {
 		color: black;
@@ -207,7 +207,8 @@ button a{
 		font-size: 1.3em;
 		text-transform:  uppercase;
 		width: 100%;
-		margin-top: 15%;
+		text-align: center;
+		margin-top: 5%;
 	}
 	.nav-bar-element-mobile a {
 		color: black;
@@ -221,20 +222,20 @@ button a{
 		color:#f24f20;
 	}
 	@keyframes menu-mobile-animation-1 {
-		from {height: 17%;}
+		from {height: 22%;}
 		to {height: 100%}
 	}
 	@-webkit-keyframes menu-mobile-animation-1  {
-		from {height: 17%;}
+		from {height: 22%;}
 		to {height: 100%}
 	}
 	@keyframes menu-mobile-animation-2 {
 		from {height: 100%;}
-		to {height: 17%}
+		to {height: 22%}
 	}
 	@-webkit-keyframes menu-mobile-animation-2  {
 		from {height: 100%;}
-		to {height: 17%}
+		to {height: 22%}
 	}
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
@@ -292,17 +293,35 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
+		margin-left: 16%;
     }
     #nav-mobile {
         height: 14%;
         position: fixed;
-    }
+	}
 	
+	@keyframes menu-mobile-animation-1 {
+		from {height: 14%;}
+		to {height: 100%}
+	}
+	@-webkit-keyframes menu-mobile-animation-1  {
+		from {height: 14%;}
+		to {height: 100%}
+	}
+	@keyframes menu-mobile-animation-2 {
+		from {height: 100%;}
+		to {height: 14%}
+	}
+	@-webkit-keyframes menu-mobile-animation-2  {
+		from {height: 100%;}
+		to {height: 14%}
+	}
 }
 
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
+		margin-left: 16%;
     }
     #nav-mobile {
         height: 10%;
@@ -342,5 +361,22 @@ button a{
 	}
 	.my-carousel-inner {
 		border-radius: 2%;
+	}
+	
+	@keyframes menu-mobile-animation-1 {
+		from {height: 10%;}
+		to {height: 100%}
+	}
+	@-webkit-keyframes menu-mobile-animation-1  {
+		from {height: 10%;}
+		to {height: 100%}
+	}
+	@keyframes menu-mobile-animation-2 {
+		from {height: 100%;}
+		to {height: 10%}
+	}
+	@-webkit-keyframes menu-mobile-animation-2  {
+		from {height: 100%;}
+		to {height: 10%}
 	}
 }

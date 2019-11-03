@@ -269,6 +269,9 @@ button a{
 	.logo {
 		width: 20%;
 	}
+	.logo-mobile {
+		width: 25%;
+	}
 	.hayat-title {
 		font-size: 5em;
 		margin-top: 40%;
@@ -329,6 +332,9 @@ button a{
     }
 	.logo {
 		width: 20%;
+	}
+	.logo-mobile {
+		width: 25%;
 	}
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
