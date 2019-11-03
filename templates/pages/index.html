@@ -32,6 +32,8 @@
 						 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Terranova Hayat</h3></b>
 						</div>
 		</div>
+		{%for hizmet in hizmetler%}
+		{% if hizmet.id == 2 %}
 		  <div class="carousel-item">
 			<div class="view">
 			  <img class="d-block w-100" src="{% static 'foto/IMG_0204.JPG' %}"
@@ -42,6 +44,8 @@
 			 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Aydan Çerçiler ile Bütünsel Koçluk</h3></b>
 			</div>
 		</div>
+		{% endif %}
+		{% endfor %}
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
@@ -120,6 +124,16 @@
 				<!--Mask color-->
 				<div class="view">
 				  <img class="d-block w-100" src="{% static 'foto/nefes.jpg' %}"
+					alt="Second slide">
+				  <div class="mask "></div>
+				</div>
+				<div class="carousel-caption">
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<!--Mask color-->
+				<div class="view">
+				  <img class="d-block w-100" src="{% static 'foto/kurban-kurtar.png.jpg' %}"
 					alt="Second slide">
 				  <div class="mask "></div>
 				</div>
