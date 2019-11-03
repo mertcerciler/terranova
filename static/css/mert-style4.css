@@ -362,9 +362,7 @@ button a{
 	.my-carousel-inner {
 		border-radius: 2%;
 	}
-	.nav-bar-element-mobile {	
-		margin-left: 25%;
-	}
+	
 	@keyframes menu-mobile-animation-1 {
 		from {height: 10%;}
 		to {height: 100%}
