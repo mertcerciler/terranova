@@ -107,6 +107,7 @@ button a{
 	color: white;
 	font-family: 'Courgette', cursive;
 	font-size: 1.5em;
+	margin-bottom: 2%;
 }
 .h3-responsive {
 	background-color: #ec3e0c;
@@ -121,17 +122,8 @@ button a{
 	font-style: italic;
 	margin-bottom: 30%;
 }
-.duyurular-icerik-icerik {
-	color: white;
-	font-family: 'Courgette', cursive;
-	list-style-type: none;
-	text-align:center;
-}
-.duyurular-icerik-icerik {
-	color: white;
-	font-family: 'Courgette', cursive;
-	list-style-type: none;
-	text-align:center;
+
+
 }
 .footer {
 	background-color: white;
@@ -252,6 +244,9 @@ button a{
 		margin-bottom: 7%;
 		font-size: 3.5em;
 		font-family: 'Dancing Script', cursive;
+	}
+	.duyurular-icerik-icerik {
+		margin-bottom: 3%;
 	}
 	.background {
 		margin:0;
