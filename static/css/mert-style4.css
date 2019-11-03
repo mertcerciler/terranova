@@ -121,13 +121,13 @@ button a{
 	font-style: italic;
 	margin-bottom: 30%;
 }
-.duyurular-icerik-icerik a{
+.duyurular-icerik-icerik {
 	color: white;
 	font-family: 'Courgette', cursive;
 	list-style-type: none;
 	text-align:center;
 }
-.duyurular-icerik-icerik a:hover{
+.duyurular-icerik-icerik {
 	color: white;
 	font-family: 'Courgette', cursive;
 	list-style-type: none;
@@ -303,6 +303,7 @@ button a{
 	}
 	.duyurular-icerik-icerik {
 		margin-left: -5%;
+		font-size: 1.2em;
 		margin-bottom: 5%;
 	}
 	@keyframes menu-mobile-animation-1 {
