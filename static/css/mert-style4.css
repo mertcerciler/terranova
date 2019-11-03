@@ -59,7 +59,7 @@ button a:link, button a:hover {
 	right: 1%;
 	font-size: 1.3em;
 	text-transform:  uppercase;
-	font-family: 'Acme', sans-serif;
+	font-family: sans-serif;
 	list-style-type: none;
 	color: black;
 }

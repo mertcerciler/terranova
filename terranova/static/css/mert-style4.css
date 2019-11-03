@@ -1,15 +1,11 @@
-
 p a:link{
 	text-decoration: none;
 }
-
 .logo {
 	width: 80%; 
 	float: right;
 	margin-top: 15%;
 }
-
-
 nav li a:link {
 	text-decoration: none;
 }
@@ -59,7 +55,7 @@ button a:link, button a:hover {
 	right: 1%;
 	font-size: 1.3em;
 	text-transform:  uppercase;
-	font-family: 'Acme', sans-serif;
+	font-family: sans-serif;
 	list-style-type: none;
 	color: black;
 }
