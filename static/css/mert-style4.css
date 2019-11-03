@@ -301,7 +301,10 @@ button a{
         height: 14%;
         position: fixed;
 	}
-	
+	.duyurular-icerik-icerik {
+		margin-left: -5%;
+		margin-bottom: 5%;
+	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 14%;}
 		to {height: 100%}
@@ -363,6 +366,7 @@ button a{
 	}
 	.duyurular-icerik-icerik {
 		margin-left: -5%;
+		margin-bottom: 5%;
 	}
 	.my-carousel-inner {
 		border-radius: 2%;
