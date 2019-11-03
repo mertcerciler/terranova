@@ -198,6 +198,7 @@ button a{
 		text-align: center;
 		background: none;
 		position: fixed;
+		margin-left: 40%;
 	}
 	.nav-bar-element-mobile {
 		color: black;
@@ -300,7 +301,7 @@ button a{
         position: fixed;
 	}
 	.nav-bar-element-mobile {	
-		margin-left: 20%;
+		margin-left: 25%;
 	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 14%;}
@@ -364,7 +365,7 @@ button a{
 		border-radius: 2%;
 	}
 	.nav-bar-element-mobile {	
-		margin-left: 20%;
+		margin-left: 25%;
 	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 10%;}
