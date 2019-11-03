@@ -1,11 +1,15 @@
+
 p a:link{
 	text-decoration: none;
 }
+
 .logo {
 	width: 80%; 
 	float: right;
 	margin-top: 15%;
 }
+
+
 nav li a:link {
 	text-decoration: none;
 }
@@ -180,6 +184,7 @@ button a{
 		position: fixed;
 		padding:0;
 		z-index: 2;
+		margin-bottom: 0;
 	}
 	.menu-icon-mobile {
 		float: right;
@@ -196,7 +201,7 @@ button a{
 	}
 	.nav-bar-element-mobile {
 		color: black;
-		font-family: 'Acme', sans-serif;
+		font-family: sans-serif;
 		list-style-type: none;
 		z-index: -1;
 		font-size: 1.3em;
@@ -287,6 +292,7 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
+		margin-left: 25%;
     }
     #nav-mobile {
         height: 14%;
@@ -298,6 +304,7 @@ button a{
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
+		margin-left: 25%;
     }
     #nav-mobile {
         height: 10%;
