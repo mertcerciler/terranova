@@ -359,4 +359,20 @@ button a{
 	.my-carousel-inner {
 		border-radius: 2%;
 	}
+	@keyframes menu-mobile-animation-1 {
+		from {height: 10%;}
+		to {height: 100%}
+	}
+	@-webkit-keyframes menu-mobile-animation-1  {
+		from {height: 10%;}
+		to {height: 100%}
+	}
+	@keyframes menu-mobile-animation-2 {
+		from {height: 100%;}
+		to {height: 10%}
+	}
+	@-webkit-keyframes menu-mobile-animation-2  {
+		from {height: 100%;}
+		to {height: 10%}
+	}
 }
