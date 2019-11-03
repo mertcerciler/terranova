@@ -16,6 +16,8 @@
 		  <li data-target="#carousel-example-2" data-slide-to="5"></li>
 		  <li data-target="#carousel-example-2" data-slide-to="6"></li>
 		  <li data-target="#carousel-example-2" data-slide-to="7"></li>
+		  <li data-target="#carousel-example-2" data-slide-to="8"></li>
+		  <li data-target="#carousel-example-2" data-slide-to="9"></li>
 		</ol>
 		<!--/.Indicators-->
 		<!--Slides-->
@@ -29,9 +31,7 @@
 						<div class="carousel-caption">
 						 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Terranova Hayat</h3></b>
 						</div>
-		</div>	
-		{% for hizmet in hizmetler %}
-		{% if hizmet.id == '2' %}
+		</div>
 		  <div class="carousel-item">
 			<div class="view">
 			  <img class="d-block w-100" src="{% static 'foto/IMG_0204.JPG' %}"
@@ -41,9 +41,7 @@
 			<div class="carousel-caption">
 			 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Aydan Çerçiler ile Bütünsel Koçluk</h3></b>
 			</div>
-		  </div>
-		{% endif %}
-		{% endfor %}
+		</div>
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
@@ -63,7 +61,6 @@
 				  <div class="mask "></div>
 				</div>
 				<div class="carousel-caption">
-				
 				</div>
 			  </div>
 		  <div class="carousel-item">
@@ -105,6 +102,26 @@
 				  <img class="d-block w-100" src="{% static 'foto/çocuklarla-koçluk.jpg' %}"
 					alt="Third slide">
 				  <div class="mask rgba-black-slight"></div>
+				</div>
+				<div class="carousel-caption">
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<!--Mask color-->
+				<div class="view">
+				  <img class="d-block w-100" src="{% static 'foto/yasemin-sungur.jpg' %}"
+					alt="Second slide">
+				  <div class="mask "></div>
+				</div>
+				<div class="carousel-caption">
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<!--Mask color-->
+				<div class="view">
+				  <img class="d-block w-100" src="{% static 'foto/nefes.jpg' %}"
+					alt="Second slide">
+				  <div class="mask "></div>
 				</div>
 				<div class="carousel-caption">
 				</div>
