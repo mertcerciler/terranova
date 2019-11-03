@@ -293,7 +293,7 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
-		margin-left: 18%;
+		margin-left: 16%;
     }
     #nav-mobile {
         height: 14%;
@@ -321,7 +321,7 @@ button a{
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
-		margin-left: 18%;
+		margin-left: 16%;
     }
     #nav-mobile {
         height: 10%;
