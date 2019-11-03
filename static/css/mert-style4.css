@@ -201,7 +201,7 @@ button a{
 	}
 	.nav-bar-element-mobile {
 		color: black;
-		font-family: 'Acme', sans-serif;
+		font-family: sans-serif;
 		list-style-type: none;
 		z-index: -1;
 		font-size: 1.3em;
