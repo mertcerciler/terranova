@@ -209,6 +209,7 @@ button a{
 		width: 100%;
 		text-align: center;
 		margin-top: 5%;
+		margin-left: 40%;
 	}
 	.nav-bar-element-mobile a {
 		color: black;
@@ -297,7 +298,10 @@ button a{
     #nav-mobile {
         height: 14%;
         position: fixed;
-    }
+	}
+	.nav-bar-element-mobile {	
+		margin-left: 20%;
+	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 14%;}
 		to {height: 100%}
@@ -358,6 +362,9 @@ button a{
 	}
 	.my-carousel-inner {
 		border-radius: 2%;
+	}
+	.nav-bar-element-mobile {	
+		margin-left: 20%;
 	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 10%;}
