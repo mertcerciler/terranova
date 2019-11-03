@@ -295,14 +295,13 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
+		margin-left: 25%;
     }
     #nav-mobile {
         height: 14%;
         position: fixed;
 	}
-	.nav-bar-element-mobile {	
-		margin-left: 25%;
-	}
+	
 	@keyframes menu-mobile-animation-1 {
 		from {height: 14%;}
 		to {height: 100%}
@@ -324,6 +323,7 @@ button a{
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
+		margin-left: 25%;
     }
     #nav-mobile {
         height: 10%;
