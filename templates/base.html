@@ -173,6 +173,8 @@
     <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
     <script>
         var menu = 0;
+        var newHeight = "100%";
+        var oldHeight = document.getElementById("nav-mobile").style.height;
         // Look for .hamburger
         var hamburger = document.querySelector(".hamburger");
         // On click
@@ -183,7 +185,7 @@
                 document.getElementById("menu-mobile").style.display = "block";
                 document.getElementById("nav-mobile").style.webkitAnimationDuration = "1s";
                 document.getElementById("nav-mobile").style.animationDuration = "1s";
-                document.getElementById("nav-mobile").style.height = "100%";
+                document.getElementById("nav-mobile").style.height = newHeight;
                 menu = 1;
             }
             else {
@@ -191,7 +193,7 @@
                 document.getElementById("menu-mobile").style.display = "none";
                 document.getElementById("nav-mobile").style.webkitAnimationDuration = "1s";
                 document.getElementById("nav-mobile").style.animationDuration = "1s";
-                document.getElementById("nav-mobile").style.height = document.getElementById("nav-mobile").style.height;
+                document.getElementById("nav-mobile").style.height = oldHeight;
                 menu = 0;
             }
         });
