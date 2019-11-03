@@ -2,12 +2,14 @@
 {% load static %}
 {% block content %}
 
-<h1 class="blog_ozel_title">{{ blog1.baslik }}</h1>
-{% if blog1.resim2 %}
-<img class="etkinlik_ozel_img_2" src="/{{ blog1.resim2.url }}">
-{% endif %}
+
+<div class="hizmet-bg" style="background-image: url('/{{ etkinlik1.resim.url}}');">
+    <p class="hizmet_ozel_baslik" >{{ etkinlik1.baslik }}</p>
+</div>
+
+<p class="blog_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog1.icerik|linebreaksbr }}</p>
-<img class="hizmet_ozel_img" src="/{{ blog1.resim.url }}">
+<img class="hizmet_ozel_img" src="/{{ blog1.resim2.url }}">
 <p class="hizmet_ozel_icerik"> {{ blog1.icerik2|linebreaksbr }}</p>
 
 {% endblock %}

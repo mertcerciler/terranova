@@ -80,17 +80,17 @@
                     class = "nav-bar-element"
                     {% endif %}> <a href="{% url 'bloglar' %}"> Blog</a> </li>
 
-                    <li {% if 'scio' in request.path %}
+                    <!-- <li {% if 'scio' in request.path %}
                     class = "nav-bar-element nav-bar-active"
                     {% else %}
                     class = "nav-bar-element"
-                    {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li>
+                    {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li> -->
 
                     <li {% if 'aydan-çerçiler' in request.path  %}
                     class = "nav-bar-element nav-bar-active"
                     {% else %}
                     class = "nav-bar-element"
-                    {% endif %}><a href="{% url 'bütünsel-koçluk' %}">Aydan Çerçiler </a></li>
+                    {% endif %}><a href="{% url 'aydan-cerciler' %}">Aydan Çerçiler </a></li>
 
                     <li {% if 'iletişim' in request.path  %}
                     class = "nav-bar-element nav-bar-active"

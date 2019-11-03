@@ -126,6 +126,13 @@ body{
 	color: #ec6c2e;
 	margin-bottom: 2%;
 }
+.etkinlik_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.7em;
+    color: #ec6c2e;
+}
 .etkinlik_ozel_img_2 {
 	float: left;
 	margin-left: 5%;
@@ -162,6 +169,13 @@ body{
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 5%;
+}
+.blog_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.7em;
+    color: #d43328;
 }
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
@@ -237,7 +251,7 @@ body{
         margin-right: 2%;
         margin-top: 10%;
     }
-    .hizmet_ozel_alt_baslik {
+	.hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
         font-size: 1.2em;
     }
 }
@@ -272,7 +286,7 @@ body{
         margin-right: 2%;
         margin-top: 10%;
     }
-    .hizmet_ozel_alt_baslik {
+    .hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
         font-size: 1.2em;
     }
 }
