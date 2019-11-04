@@ -27,6 +27,7 @@ def hizmet_ayrintili(request, hizmet_id):
         'hizmet1': hizmet1,
     }
     return render(request, 'hizmetler/hizmet_ozel.html', context)
+    
 def aydan_cerciler(request):
     return render(request, 'pages/aydan-cerciler.html')
 
