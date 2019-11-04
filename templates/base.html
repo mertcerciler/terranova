@@ -80,12 +80,6 @@
                     class = "nav-bar-element"
                     {% endif %}> <a href="{% url 'bloglar' %}"> Blog</a> </li>
 
-                    <!-- <li {% if 'scio' in request.path %}
-                    class = "nav-bar-element nav-bar-active"
-                    {% else %}
-                    class = "nav-bar-element"
-                    {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li> -->
-
                     <li {% if 'aydan-cerciler' in request.path  %}
                     class = "nav-bar-element nav-bar-active"
                     {% else %}
@@ -134,18 +128,12 @@
                         {% else %}
                         class = "nav-bar-element-mobile animated fadeIn delay-1s"
                         {% endif %}> <a href="{% url 'bloglar' %}"> Blog</a> </li>
-                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
-                        <!-- <li {% if 'scio' in request.path %}
-                        class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
-                        {% else %}
-                        class = "nav-bar-element-mobile animated fadeIn delay-1s"
-                        {% endif %}> <a href="{% url 'scio' %}">Yararlı Bilgiler</a> </li> -->
-                        <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
+                        
                         <li {% if 'aydan-cerciler' in request.path  %}
                         class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
                         {% else %}
                         class = "nav-bar-element-mobile animated fadeIn delay-1s"
-                        {% endif %}><a href="{% url 'bütünsel-koçluk' %}">Aydan Çerçiler </a></li>
+                        {% endif %}><a href="{% url 'aydan-cerciler' %}">Aydan Çerçiler </a></li>
                         <!-- <hr class="hr-dark animated fadeIn delay-1s " style="width: 500%; margin-right: 20%;"> -->
                         <li {% if 'iletisim' in request.path  %}
                         class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
