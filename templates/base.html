@@ -93,7 +93,7 @@
                     {% endif %}><a href="{% url 'iletisim' %}">iletişim</a> </li>
                 </ul>
             </div>
-            <div class="text-center ">
+            
             <div id = "nav-mobile">
                 <img src="{% static 'foto/Terranova_Logo (1).jpg' %}" class="logo-mobile">
                 <button class="hamburger hamburger--collapse menu-icon-mobile" style="margin-right: 2%; margin-top: 2%" type="button">
@@ -103,6 +103,7 @@
                 </button>
                 <div id="menu-mobile">
                     <ul id="menu-nav-mobile-ul">
+                        <div class="text-center">
                         <li {% if '/' == request.path %}
                         class = "nav-bar-element-mobile nav-bar-active animated fadeIn delay-1s"
                         {% elif 'index' in request.path %}
