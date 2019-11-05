@@ -6,6 +6,7 @@ from etkinlikler.models import Etkinlik
 
 def index(request): 
     hizmetler = Hizmet.objects.all()
+    etkinlikler = Etkinlik.objects.all()
     kisa_icerik = []
    
     for hizmet_element in hizmetler:
@@ -18,6 +19,7 @@ def index(request):
     mylist = zip(hizmetler, kisa_icerik)
     context = {
         'hizmetler' : hizmetler,
+        'etkinlikler' : etkinlikler,
         'mylist' : mylist,
     }
     return render(request, 'pages/index.html', context)
@@ -36,7 +38,7 @@ def etkinlik_ayrintili(request, etkinlik_id):
         'etkinlik1': etkinlik1,
     }
     return render(request, 'etkinlikler/etkinlik_ozel.html', context)
-    
+
 def aydan_cerciler(request):
     return render(request, 'pages/aydan-cerciler.html')
 
