@@ -46,49 +46,67 @@
 		</div>
 		{% endif %}
 		{% endfor %}
+		{%for hizmet in hizmetler%}
+		{% if hizmet.id == 1 %}
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-			  <img class="d-block w-100" src="{% static 'foto/Webp.net-resizeimage (5).jpg' %}"
+				<a href="{% url 'hizmet_ozel' hizmet.id %}"><img class="d-block w-100" src="{% static 'foto/Webp.net-resizeimage (5).jpg' %}"
 				alt="Second slide">
 			  <div class="mask "></div>
 			</div>
 			<div class="carousel-caption">
-			<b> <h3 class="h3-responsive animated fadeInUp delay-1s">SCIO ile Stres Dengeleme ve Odaklanma</h3></b>
+			<b> <h3 class="h3-responsive animated fadeInUp delay-1s">SCIO ile Stres Dengeleme ve Odaklanma</h3></b></a>
 			</div>
 		  </div>
+		  {% endif %}
+		{% endfor %}
+		{%for etkinlik in etkinlikler%}
+		{% if etkinlik.id == 2 %}
 		  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
-				  <img class="d-block w-100" src="{% static 'foto/yoga-terapi.jpg' %}"
+				  <a href="{% url 'etkinlik_ozel' etkinlik.id %}"><img class="d-block w-100" src="{% static 'foto/yoga-terapi.jpg' %}"
 					alt="Second slide">
 				  <div class="mask "></div>
 				</div>
 				<div class="carousel-caption">
-				</div>
+				</div></a>
 			  </div>
+			  {% endif %}
+		{% endfor %}
+		{%for hizmet in hizmetler%}
+		{% if hizmet.id == 4 %}
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-			  <img class="d-block w-100" src="{% static 'foto/aile-dizilimi-slide.jpg' %}"
+				<a href="{% url 'hizmet_ozel' hizmet.id %}"><img class="d-block w-100" src="{% static 'foto/aile-dizilimi-slide.jpg' %}"
 				alt="Third slide">
 			  <div class="mask rgba-black-slight"></div>
 			</div>
 			<div class="carousel-caption">
-				<b> <h3 class="h3-responsive animated fadeInUp delay-1s">Antar Satya ile Aile Dizilimi</h3></b>
+				<b> <h3 class="h3-responsive animated fadeInUp delay-1s">Antar Satya ile Aile Dizilimi</h3></b></a>
 			</div>
 		  </div>
+		  {% endif %}
+		  {% endfor %}
+		  <!-- {%for etkinlik in etkinlikler%}
+		{% if etkinlik.id == 1 %} -->
 		  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
-				  <img class="d-block w-100" src="{% static 'foto/yaratici-yazi-etkinlikleri.jpg' %}"
+					<a href="{% url 'etkinlik_ozel' etkinlik.id %}"><img class="d-block w-100" src="{% static 'foto/yaratici-yazi-etkinlikleri.jpg' %}"
 					alt="Third slide">
 				  <div class="mask rgba-black-slight"></div>
 				</div>
 				<div class="carousel-caption">
-				 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Yaratıcı Yazı Etkinlikleri</h3></b>
+				 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Yaratıcı Yazı Etkinlikleri</h3></b></a>
 				</div>
 			  </div>
+			  <!-- {% endif %}
+		  {% endfor %} -->
+		  {%for hizmet in hizmetler%}
+		  {% if hizmet.id == 3 %}
 			<div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
@@ -100,6 +118,10 @@
 				<b> <h3 class="h3-responsive animated fadeInUp delay-1s">Aydan Çerçiler ile Gençlere Koçluk</h3></b>
 			</div>
 		  </div>
+		  {% endif %}
+		  {% endfor %}
+		  {%for hizmet in hizmetler%}
+		  {% if hizmet.id == 3 %}
 		  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
@@ -110,6 +132,10 @@
 				<div class="carousel-caption">
 				</div>
 			  </div>
+			  {% endif %}
+		  {% endfor %}
+			  {%for etkinlik in etkinlikler%}
+		{% if etkinlik.id == 5 %}
 			  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
@@ -120,6 +146,10 @@
 				<div class="carousel-caption">
 				</div>
 			  </div>
+			  {% endif %}
+		  {% endfor %}
+			  {%for etkinlik in etkinlikler%}
+			  {% if etkinlik.id == 4 %}
 			  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
@@ -130,6 +160,8 @@
 				<div class="carousel-caption">
 				</div>
 			  </div>
+			  {% endif %}
+		  {% endfor %}
 			  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
