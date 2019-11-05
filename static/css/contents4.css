@@ -177,6 +177,14 @@ body{
     font-size: 1.7em;
     color: #d43328;
 }
+.title-iletisim {
+	color: #28528d;
+	font-family: "Dancing Script",Arial,sans-serif;
+	margin-left: 15%;
+	line-height: 1.6;
+	margin-top: 2%;
+}
+
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
 		width: 45%;

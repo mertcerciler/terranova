@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+<h1 class="title-iletisim">İletişim</h1> 
+<hr class="hr-dark" style="width: 75%; margin-right: 20%;">
 
 <table class="content" style="margin-top: 5%">
         <tr>
@@ -23,7 +25,7 @@
             <td>Eski lara yolu 1506 sok no 5 kat 3 daire 6   </td> </tr><div id="map"></div>
         <script>
     // Initialize and add the map
-    function initMap() {
+     function initMap() {
       // The location of Uluru
       var uluru = {lat: 36.857528, lng: 30.739444};
       // The map, centered at Uluru
@@ -32,14 +34,14 @@
       // The marker, positioned at Uluru
       var marker = new google.maps.Marker({position: uluru, map: map});
     }
-        </script>
+     </script> 
         <!--Load the API from the specified URL
         * The async attribute allows the browser to render the page while the API loads
         * The key parameter will contain your own API key (which is not needed for this tutorial)
         * The callback parameter executes the initMap() function
         -->
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD9Syd9Tg-lS9FCvG5a_aqhzkzIMvcpkM&callback=initMap">
+         <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMDW0sNABVf8c4gA8cVLgKU-QUeTifx6o&callback=initMap">
+
         </script>
-        
 {% endblock %}
