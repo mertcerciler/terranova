@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from hizmetler.models import Hizmet
+from etkinlikler.models import Etkinlik
 
 # Create your views here.
 
@@ -27,6 +28,14 @@ def hizmet_ayrintili(request, hizmet_id):
         'hizmet1': hizmet1,
     }
     return render(request, 'hizmetler/hizmet_ozel.html', context)
+
+def etkinlik_ayrintili(request, etkinlik_id):
+    etkinlik1 = get_object_or_404(Etkinlik, pk= etkinlik_id)
+
+    context = {
+        'etkinlik1': etkinlik1,
+    }
+    return render(request, 'etkinlikler/etkinlik_ozel.html', context)
     
 def aydan_cerciler(request):
     return render(request, 'pages/aydan-cerciler.html')
