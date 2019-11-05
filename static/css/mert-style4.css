@@ -189,6 +189,7 @@ button a{
 		height: 80%;
 		background: none;
 		position: fixed;
+		margin-left: 38%;
 	}
 	.nav-bar-element-mobile {
 		color: black;
@@ -289,6 +290,7 @@ button a{
 	}
     #menu-mobile {
 		position: fixed;
+		margin-left: 24%;
     }
     #nav-mobile {
         height: 14%;
@@ -320,6 +322,7 @@ button a{
 @media screen and (max-width: 600px) {
     #menu-mobile {
 		position: fixed;
+		margin-left: 16%;
     }
     #nav-mobile {
         height: 10%;
