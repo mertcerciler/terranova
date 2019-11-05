@@ -91,8 +91,7 @@
 		  </div>
 		  {% endif %}
 		  {% endfor %}
-		  <!-- {%for etkinlik in etkinlikler%}
-		{% if etkinlik.id == 1 %} -->
+		  
 		  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
@@ -104,8 +103,7 @@
 				 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Yaratıcı Yazı Etkinlikleri</h3></b></a>
 				</div>
 			  </div>
-			  <!-- {% endif %}
-		  {% endfor %} -->
+	
 		  {%for hizmet in hizmetler%}
 		  {% if hizmet.id == 3 %}
 			<div class="carousel-item">
@@ -135,7 +133,7 @@
 			  </div>
 			  {% endif %}
 		  {% endfor %}
-			  {%for etkinlik in etkinlikler%}
+			  {% for etkinlik in etkinlikler%}
 		{% if etkinlik.id == 5 %}
 			  <div class="carousel-item">
 				<!--Mask color-->
