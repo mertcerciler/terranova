@@ -23,6 +23,6 @@ def blog_ayrintili(request, blog_id):
     blog = get_object_or_404(Blog, pk= blog_id)
 
     context = {
-        'blog': blog1,
+        'blog': blog,
     }
     return render(request, 'bloglar/blog_ozel.html', context)
