@@ -202,6 +202,10 @@ body{
 	margin-left: 5%;
 	display: inline-block;
 }
+.iletisim-adres {
+	width: 70.3%;
+	margin-left: 5%;
+}
 
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
@@ -260,6 +264,10 @@ body{
 		display: block;
 		width: 70.3%;
 		margin-top: 5%;
+	}
+	.iletisim-adres {
+		width: 85%;
+		margin-left: 5%;
 	}
     
 }
