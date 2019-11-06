@@ -197,6 +197,11 @@ body{
 .card-body {
 	display: inline-block;
 }
+.iletisim-alt {
+	width: 20%;
+	margin-left: 5%;
+	display: inline-block;
+}
 
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
@@ -246,6 +251,15 @@ body{
 	.hizmet_ozel_img {
 		width: 50%;
 		margin-left: 10%;
+	}
+	#map {
+		margin-top: 5%;
+		width: 90%;
+	}
+	.iletisim-alt {
+		display: block;
+		width: 60%;
+		margin-top: 5%;
 	}
     
 }
