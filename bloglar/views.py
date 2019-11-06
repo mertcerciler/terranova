@@ -20,9 +20,9 @@ def blog(request):
     return render(request, 'bloglar/bloglar.html', context)
 
 def blog_ayrintili(request, blog_id):
-    blog1 = get_object_or_404(Blog, pk= blog_id)
+    blog = get_object_or_404(Blog, pk= blog_id)
 
     context = {
-        'blog1': blog1,
+        'blog': blog1,
     }
     return render(request, 'bloglar/blog_ozel.html', context)

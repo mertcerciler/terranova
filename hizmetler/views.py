@@ -19,7 +19,6 @@ def hizmet(request):
     }
     return render(request, 'hizmetler/hizmetler.html', context)
 
-
 def hizmet_ayrintili(request, hizmet_id):
     hizmet1 = get_object_or_404(Hizmet, pk= hizmet_id)
 
