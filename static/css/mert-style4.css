@@ -142,9 +142,8 @@ button a{
 	margin: 1%;
 }
 #map {
-	
-	 height: 25%;  /* The height is 400 pixels */
-     width: 50%;  /* The width is the width of the web page */
+	height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
 }
 
 @media screen and (max-width: 1025px){

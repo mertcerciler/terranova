@@ -4,12 +4,12 @@
 
 
 <div class="hizmet-bg" style="background-image: url('/{{ etkinlik1.resim.url}}');">
-    <p class="hizmet_ozel_baslik" >{{ etkinlik1.baslik }}</p>
+    <p class="hizmet_ozel_baslik" >{{ blog.baslik }}</p>
 </div>
 
-<p class="blog_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
-<p class="hizmet_ozel_icerik"> {{ blog1.icerik|linebreaksbr }}</p>
+<p class="blog_ozel_alt_baslik">{{blog.baslik}}</p>
+<p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
 <img class="hizmet_ozel_img" src="/{{ blog1.resim2.url }}">
-<p class="hizmet_ozel_icerik"> {{ blog1.icerik2|linebreaksbr }}</p>
+<p class="hizmet_ozel_icerik"> {{ blog.icerik2|linebreaksbr }}</p>
 
 {% endblock %}

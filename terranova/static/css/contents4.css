@@ -180,11 +180,22 @@ body{
 .title-iletisim {
 	color: #28528d;
 	font-family: "Dancing Script",Arial,sans-serif;
-	margin-left: 15%;
+	margin-left: 8%;
 	line-height: 1.6;
 	margin-top: 2%;
 }
-
+.iletisim-icon{
+	width: 50px;
+	display: inline-block;
+}
+.iletisim-icon-media {
+	width: 50px;
+	display: inline-block;
+	margin-left: 30%;
+}
+.card-body {
+	display: inline-block;
+}
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
 		width: 45%;
