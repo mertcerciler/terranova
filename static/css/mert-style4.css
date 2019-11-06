@@ -122,7 +122,13 @@ button a{
 	font-style: italic;
 	margin-bottom: 30%;
 }
-
+.h3-responsive a {
+	background-color: #ec3e0c;
+	border-radius: 5%;
+	padding: 2% 4%;
+	font-style: italic;
+	color: white;
+}
 
 
 .footer {
