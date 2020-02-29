@@ -9,7 +9,9 @@
 
 <p class="etkinlik_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik|linebreaksbr }}</p>
+{% if etkinlik1.resim2 %}
 <img class="hizmet_ozel_img" src="/{{ etkinlik1.resim2.url }}">
+{% endif %}
 <p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik2|linebreaksbr }}</p>
 
 {% endblock %}
