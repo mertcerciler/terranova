@@ -12,10 +12,10 @@ def etkinlik(request):
             str1  = str1 + etkinlik_element.icerik[x]
         kisa_icerik.append(str1)
         ch = ch + 1
-    mylist = zip(etkinlikler, kisa_icerik)
+    mylist = zip(reversed(etkinlikler), reversed(kisa_icerik))
     context = {
         'etkinlikler' : etkinlikler,
-        'mylist' : list(mylist),
+        'mylist' : mylist,
     }
     return render(request, 'etkinlikler/etkinlikler.html', context)
 
