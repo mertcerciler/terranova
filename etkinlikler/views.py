@@ -15,7 +15,7 @@ def etkinlik(request):
     mylist = zip(etkinlikler, kisa_icerik)
     context = {
         'etkinlikler' : etkinlikler,
-        'mylist' : mylist,
+        'mylist' : list(mylist),
     }
     return render(request, 'etkinlikler/etkinlikler.html', context)
 
