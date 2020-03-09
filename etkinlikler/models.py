@@ -7,3 +7,5 @@ class Etkinlik(models.Model):
     resim = models.ImageField(upload_to='')
     resim2 = models.ImageField(upload_to='', blank=True)
     tarih = models.DateTimeField(blank=True)
+    def __str__(self):
+        return self.baslik

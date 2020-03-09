@@ -76,6 +76,20 @@
 			  </div>
 			  {% endif %}
 		{% endfor %}
+		{%for hizmet in hizmetler%}
+		{% if hizmet.id == 4 %}
+		  <div class="carousel-item">
+			<!--Mask color-->
+			<div class="view">
+				<a href="{% url 'hizmet_ozel' hizmet.id %} " style="color: white;"><img class="d-block w-100" src="{% static 'foto/WhatsApp Image 2020-03-09 at 20.14.45.jpeg' %}"
+				alt="Third slide">
+			  <div class="mask rgba-black-slight"></div>
+			</div>
+			<div class="carousel-caption">
+			</div>
+		  </div>
+		  {% endif %}
+		  {% endfor %}
 		{%for etkinlik in etkinlikler%}
 		{% if etkinlik.id == 14 %}
 		  <div class="carousel-item">
@@ -91,22 +105,21 @@
 			  </div>
 			  {% endif %}
 		{% endfor %}
-		
-		{%for hizmet in hizmetler%}
-		{% if hizmet.id == 4 %}
+		{%for etkinlik in etkinlikler%}
+		{% if etkinlik.id == 12 %}
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-				<a href="{% url 'hizmet_ozel' hizmet.id %} " style="color: white;"><img class="d-block w-100" src="{% static 'foto/aile-dizilimi-slide.jpg' %}"
+				<a href="{% url 'hizmet_ozel' hizmet.id %} " style="color: white;"><img class="d-block w-100" src="{% static 'foto/WhatsApp Image 2020-03-09 at 23.06.05.jpeg' %}"
 				alt="Third slide">
 			  <div class="mask rgba-black-slight"></div>
 			</div>
 			<div class="carousel-caption">
-				<b> <h3 class="h3-responsive animated fadeInUp delay-1s">Antar Satya ile Aile Dizilimi</h3></b></a>
 			</div>
 		  </div>
 		  {% endif %}
 		  {% endfor %}
+	
 		  
 		  <div class="carousel-item">
 				<!--Mask color-->

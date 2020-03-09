@@ -6,4 +6,6 @@ class Hizmet(models.Model):
     icerik2 = models.TextField(blank=True)
     resim = models.ImageField(upload_to='')
     resim2 = models.ImageField(upload_to='', blank=True)
+    def __str__(self):
+        return self.baslik
 

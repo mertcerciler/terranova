@@ -7,4 +7,6 @@ class Blog(models.Model):
     resim = models.ImageField(upload_to='')
     resim2 = models.ImageField(upload_to='', blank=True)
     tarih = models.DateTimeField(blank=True, default=datetime.now)
+    def __str__(self):
+        return self.baslik
 
