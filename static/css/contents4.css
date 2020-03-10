@@ -352,11 +352,15 @@ body{
 	.wp-forward {
 		display: block;
 	}
+	.wp-forward a {
+		color: black;
+	}
 	.wp-icon {
 		display: block;
 		float: right;
 		margin-right: 3%;
 		margin-top: 15px;
+		size: 15px;
 	}
 
 }
