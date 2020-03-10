@@ -11,6 +11,6 @@
 <p class="hizmet_ozel_icerik"> {{ blog.icerik2|linebreaksbr }}</p>
 <div class ="wp-forward">
     <hr>
-    <a href="https://wa.me/?text=www.terranovahayat.com/bloglar/{{blog.id}}">Whatsapp'ta paylaş!<img class="wp-icon" src="{% static 'foto/whatsapp-512.png' %}"></a>
+    <a href="https://wa.me/?text=www.terranovahayat.com/bloglar/{{blog.id}}"><meta property="og:image" content="{{ blog.title }}">Whatsapp'ta paylaş!<img class="wp-icon" src="{% static 'foto/whatsapp-512.png' %}"></a>
 </div>
 {% endblock %}
