@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from hizmetler.models import Hizmet
 from etkinlikler.models import Etkinlik
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -46,4 +47,4 @@ def iletisim(request):
     return render(request, 'pages/iletisim.html')
 
 def ssl(request):
-    return render(request, 'pages/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt')
+    return HttpResponse(request, 'pages/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt')
