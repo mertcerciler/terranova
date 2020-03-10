@@ -42,6 +42,8 @@ def etkinlik_ayrintili(request, etkinlik_id):
 def aydan_cerciler(request):
     return render(request, 'pages/aydan-cerciler.html')
 
-
 def iletisim(request):
     return render(request, 'pages/iletisim.html')
+
+def ssl(request):
+    return render(request, 'pages/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt')
