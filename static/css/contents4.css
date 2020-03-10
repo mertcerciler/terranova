@@ -269,7 +269,12 @@ body{
 		width: 90%;
 		margin-left: 5%;
 	}
-    
+    .wp-forward {
+		display: none;
+	}
+	.wp-icon {
+		display: none;
+	}
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -343,5 +348,15 @@ body{
 	}
     .hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
         font-size: 1.2em;
-    }
+	}
+	.wp-forward {
+		display: block;
+	}
+	.wp-icon {
+		display: block;
+		float: right;
+		margin-right: 3%;
+		margin-top: 15px;
+	}
+
 }
