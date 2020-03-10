@@ -47,4 +47,7 @@ def iletisim(request):
     return render(request, 'pages/iletisim.html')
 
 def ssl(request):
-    return HttpResponse(request, 'pages/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt')
+    f = open('pages/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', 'r')
+    file_content = f.read()
+    f.close()
+    return HttpResponse(file_content, content_type="text/plain")
