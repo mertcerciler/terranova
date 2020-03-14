@@ -8,5 +8,5 @@ urlpatterns  = [
     path('<int:etkinlik_id>', views.etkinlik_ayrintili, name='etkinlik_ozel'),
     path('aydan-cerciler', views.aydan_cerciler, name='aydan-cerciler'),
     path('iletisim', views.iletisim, name='iletisim'),
-    path('.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', views.ssl, name='ssl'),
+    # path('.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', views.ssl, name='ssl'),
 ]
