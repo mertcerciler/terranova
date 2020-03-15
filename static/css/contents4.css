@@ -211,6 +211,10 @@ body{
 }
 .wp-icon {
 	display: none;
+	float: right;
+	margin-right: 3%;
+	margin-top: 15px;
+	size: 15px;
 }
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
