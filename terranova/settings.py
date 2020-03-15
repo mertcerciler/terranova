@@ -15,7 +15,7 @@ SECRET_KEY = 'd1f9hifjr9du%zrc0wu^qyg=(@k)fq8y6buv5&#a!9=k42&+y$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['165.22.199.218', 'terranovahayat.com', 'www.terranovahayat.com']
 
 
 # Application definition
