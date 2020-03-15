@@ -16,7 +16,7 @@ SECRET_KEY = 'd1f9hifjr9du%zrc0wu^qyg=(@k)fq8y6buv5&#a!9=k42&+y$'
 DEBUG = True
 
 # ALLOWED_HOSTS = ['165.22.199.218', 'terranovahayat.com', 'www.terranovahayat.com', '127.0.0.1']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['terranovahayat.com', ]
 
 # Application definition
 
