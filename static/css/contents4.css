@@ -206,7 +206,12 @@ body{
 	width: 70.3%;
 	margin-left: 5%;
 }
-
+.wp-forward {
+	display: none;
+}
+.wp-icon {
+	display: none;
+}
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
 		width: 45%;
