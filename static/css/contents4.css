@@ -341,7 +341,8 @@ body{
 		color: black;
 	}
 	.wp-icon {
-		display: inline-block;
+		display:block;
+		float: right; 
 		margin-right: 15%;
 		width: 10%;
 	}
