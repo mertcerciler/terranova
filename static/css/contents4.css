@@ -342,8 +342,7 @@ body{
 	}
 	.wp-icon {
 		display: inline-block;
-		margin-left: 3%;
-		margin-top: 15px;
+		margin-right: 15%;
 		width: 10%;
 	}
 }
