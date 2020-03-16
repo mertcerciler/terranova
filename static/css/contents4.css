@@ -197,24 +197,12 @@ body{
 .card-body {
 	display: inline-block;
 }
-.iletisim-alt {
-	width: 20%;
-	margin-left: 5%;
-	display: inline-block;
-}
-.iletisim-adres {
-	width: 70.3%;
-	margin-left: 5%;
-}
 .wp-forward {
 	display: none;
 }
 .wp-icon {
 	display: none;
-	float: right;
-	margin-right: 3%;
-	margin-top: 15px;
-	size: 15px;
+	
 }
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
@@ -227,7 +215,7 @@ body{
         padding-bottom: 5%;
         margin-bottom: 15%;
 	}
-	.title-etkinlik, .title-blog, .title-hizmetler, #title, .title-iletisim  {
+	.title-etkinlik, .title-blog, .title-hizmetler, #title {
         margin-top: 15%;
 	}
 	.hr-dark{
@@ -265,25 +253,13 @@ body{
 		width: 50%;
 		margin-left: 10%;
 	}
-	#map {
-		margin-top: 5%;
-		width: 90%;
-	}
-	.iletisim-alt {
-		display: block;
-		width: 70.3%;
-		margin-top: 5%;
-	}
-	.iletisim-adres {
-		width: 90%;
-		margin-left: 5%;
-	}
-    .wp-forward {
+	.wp-forward {
 		display: none;
 	}
 	.wp-icon {
 		display: none;
 	}
+    
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -365,7 +341,9 @@ body{
 		color: black;
 	}
 	.wp-icon {
-		display: block;
+		display: inline-block;
+		margin-left: 3%;
+		margin-top: 15px;
+		width: 10%;
 	}
-
 }
