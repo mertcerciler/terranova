@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
+<head>
 <title>{{blog.title}}</title>
-
+</head>
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
@@ -14,4 +14,4 @@
     <meta property="og:description" content="{{ blog.title }}"><a href="whatsapp://send?text={{blog.title}} https://terranovahayat.com/bloglar/{{blog.id}}"> <img class="wp-icon" style="width: 10%;" src="{% static 'foto/whatsapp-512.png' %} "></a>
 </div>
 
-    {% endblock %}
+{% endblock %}
