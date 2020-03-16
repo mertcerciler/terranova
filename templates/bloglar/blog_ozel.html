@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
 
-    {% block title %}{{ blog.baslik }}{% endblock title %}
+{% block title %}{{ blog.baslik }}{% endblock title %}
 
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
@@ -11,7 +11,7 @@
 <p class="hizmet_ozel_icerik"> {{ blog.icerik2|linebreaksbr }}</p>
 <div class ="wp-forward">
     <hr>
-    <meta property="og:description" content="{{ blog.title }}"><a href="whatsapp://send?text={{blog.title}} https://terranovahayat.com/bloglar/{{blog.id}}"> <img class="wp-icon" style="width: 10%;" src="{% static 'foto/whatsapp-512.png' %} "></a>
+    <meta property="og:image" content="{{ blog.resim.url }}"><a href="whatsapp://send?text={{blog.baslik}} https://terranovahayat.com/bloglar/{{blog.id}}"> <img class="wp-icon" style="width: 10%;" src="{% static 'foto/whatsapp-512.png' %} "></a>
 </div>
 
 {% endblock %}
