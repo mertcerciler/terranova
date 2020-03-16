@@ -197,7 +197,16 @@ body{
 .card-body {
 	display: inline-block;
 }
-
+.wp-forward {
+	display: none;
+}
+.wp-icon {
+	display: none;
+	float: right;
+	margin-right: 3%;
+	margin-top: 15px;
+	size: 15px;
+}
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
 		width: 45%;
@@ -246,6 +255,12 @@ body{
 	.hizmet_ozel_img {
 		width: 50%;
 		margin-left: 10%;
+	}
+	.wp-forward {
+		display: none;
+	}
+	.wp-icon {
+		display: none;
 	}
     
 }
@@ -321,5 +336,14 @@ body{
 	}
     .hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
         font-size: 1.2em;
-    }
+	}
+	.wp-forward {
+		display: block;
+	}
+	.wp-forward a {
+		color: black;
+	}
+	.wp-icon {
+		display: block;
+	}
 }
