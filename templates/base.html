@@ -47,7 +47,11 @@
         <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
 
         <!-- /links -->
-        <title>Terranova Hayat</title>
+        <title>
+            {% block title %}
+            {{ page_title|default:"Terranova Hayat" }}
+            {% endblock title %}
+        </title>
     </head>
     <body> 
         <nav>

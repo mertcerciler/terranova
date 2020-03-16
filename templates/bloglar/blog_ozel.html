@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<head>
-<title>{{blog.title}}</title>
-</head>
+
+    {% block title %}{{ blog.title }}{% endblock title %}
+
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
