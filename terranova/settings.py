@@ -128,6 +128,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/foto')
 MEDIA_URL = 'static/foto/'
 
 try: 
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass 
