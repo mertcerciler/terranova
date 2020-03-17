@@ -21,8 +21,13 @@ def blog(request):
 
 def blog_ayrintili(request, blog_id):
     blog = get_object_or_404(Blog, pk= blog_id)
-
+    str1 = "" 
+    for blog_icerik in blog:
+        for x in range(0, 65):
+            str1 = str1 + blog_icerik.icerik[x]
+    wp_icerik  = str1
     context = {
         'blog': blog,
+        'wp_icerik': wp_icerik
     }
     return render(request, 'bloglar/blog_ozel.html', context)
