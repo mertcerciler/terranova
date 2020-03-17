@@ -24,6 +24,7 @@ def blog_ayrintili(request, blog_id):
     str1 = "" 
     for x in range(0, 65):
         str1 = str1 + blog_ayrinti.icerik[x]
+    str1 = str1 + "..."
     wp_icerik  = str1
     context = {
         'blog': blog_ayrinti,
