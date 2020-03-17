@@ -5,7 +5,7 @@
 <!-- {% block title %}{{ blog.baslik }}{% endblock title %} -->
 {% block wp %} <meta property="og:title" content="{{ blog.baslik }}"  /> {% endblock wp %}
 {% block wp_icerik %} <meta property="og:description" content="{{ wp_icerik }}"  /> {% endblock wp_icerik %}
-{% block wp_img %} <meta property="og:image" content="{% static 'foto/15874808_10154820879712777_8517188862042733977_o.jpg' %}"/> {% endblock wp_img %}
+{% block wp_img %} <meta property="og:image" content="{{ blog.resim.url }}"/> {% endblock wp_img %}
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
