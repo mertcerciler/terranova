@@ -336,6 +336,7 @@ body{
 	}
 	.wp-forward {
 		display: block;
+		height: 10%;
 	}
 	.wp-forward a {
 		color: black;
