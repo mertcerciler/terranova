@@ -136,8 +136,11 @@ button a{
 	position: static;
 	width: 84%;
 }
+.footer-sc-media {
+    display: inline-block;
+}
 .footer-inner {
-	display: inline;
+	display: inline-block;
 	margin-left: 20%;
 }
 .logo-element {
@@ -396,7 +399,7 @@ button a{
 	}
 	.footer-inner {
 		display: block;
-        margin-left: 3%;
+        margin-left: 1%;
         margin-top: 3%;
 	}
 }
