@@ -361,13 +361,11 @@ body{
 		display: inline-block;
 		margin-left: 5%;
 	}
-	.share-icon {
-		float: right; 
+	.share-icon {; 
 		margin-right: 20%;
 		width: 7%;
 	}
 	.fb-icon {
-		float: right;
 		margin-right: 15%;
 		width: 7%;
 	}
