@@ -5,14 +5,13 @@
 <!-- {% block title %}{{ blog.baslik }}{% endblock title %} -->
 {% block wp %} <meta property="og:title" content="{{ blog.baslik }}"  /> {% endblock wp %}
 {% block wp_icerik %} <meta property="og:description" content="{{ wp_icerik }}"  /> {% endblock wp_icerik %}
-{% block wp_img %} <meta property="og:image" content="{{ blog.resim.url }}"/> {% endblock wp_img %}
+{% block wp_img %} <meta property="og:image" content="{{ blog.resim }}"/> {% endblock wp_img %}
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
 
 <p class="hizmet_ozel_icerik"> {{ blog.icerik2|linebreaksbr }}</p>
 <div class ="wp-forward">
-     
     <a href="whatsapp://send?text={{blog.baslik}} https://terranovahayat.com/bloglar/{{blog.id}}"> <img class="wp-icon" style="width: 10%; top: 0" src="{% static 'foto/whatsapp-512.png' %} "></a>
 </div>
 
