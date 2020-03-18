@@ -359,12 +359,12 @@ body{
 	}
 	.fb-icon {
 		float: right;
-		margin-right: 20%;
+		margin-right: 15%;
 		width: 10%;
 	}
 	.share-icon {
 		float: right; 
-		margin-right: 5;
+		margin-right: 5%;
 		width: 10%;
 	}
 }
