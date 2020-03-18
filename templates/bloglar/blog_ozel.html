@@ -9,7 +9,7 @@
 <img class="hizmet_ozel_img" src="/{{ blog.resim.url }}">
 <p class="blog_ozel_alt_baslik" >{{blog.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ blog.icerik|linebreaksbr }}</p>
-{% if etkinlik1.resim2 %}
+{% if blog.resim2 %}
 <img class="hizmet_ozel_img" src="/{{ blog.resim2.url }}">
 {% endif %}
 <p class="hizmet_ozel_icerik"> {{ blog.icerik2|linebreaksbr }}</p>
