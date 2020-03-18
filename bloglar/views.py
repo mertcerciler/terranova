@@ -12,7 +12,7 @@ def blog(request):
             str1  = str1 + blog_element.icerik[x]
         kisa_icerik.append(str1)
         ch = ch + 1
-    mylist = zip(bloglar, kisa_icerik)
+    mylist = zip(reversed(bloglar), reversed(kisa_icerik))
     context = {
         'bloglar' : bloglar,
         'mylist' : mylist,
