@@ -388,4 +388,7 @@ button a{
 		from {height: 100%;}
 		to {height: 10%}
 	}
+	.footer {
+		margin-top: 18%;
+	}
 }
