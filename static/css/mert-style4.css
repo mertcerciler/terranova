@@ -391,4 +391,7 @@ button a{
 	.footer {
 		margin-top: 18%;
 	}
+	.footer-inner {
+		margin-left: 10%;
+	}
 }
