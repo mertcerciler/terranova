@@ -361,17 +361,17 @@ body{
 		display: inline-block;
 		margin-left: 5%;
 	}
-	.share-icon {; 
-		margin-right: 20%;
+	.share-icon { 
+		margin-left: 30%;
 		width: 7%;
 	}
 	.fb-icon {
-		margin-right: 15%;
+		margin-left: 35%;
 		width: 7%;
 	}
 	.wp-icon {
 		display: inline-block;
 		width: 5%;
-		margin-right: 10%;
+		margin-left: 40%;
 	}	
 }
