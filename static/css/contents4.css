@@ -194,6 +194,10 @@ body{
 	display: inline-block;
 	margin-left: 30%;
 }
+.card {
+	width: 70%;
+	margin-left: 5%;
+}
 .card-body {
 	display: inline-block;
 }
