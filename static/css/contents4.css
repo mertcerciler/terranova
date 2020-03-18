@@ -351,20 +351,22 @@ body{
 		display: inline-block;
 		margin-left: 5%;
 	}
-	.wp-icon {
-		display: block;
-		float: right;
-		width: 10%;
-		margin-right: 10%;
+	.share-icon {
+		float: right; 
+		margin-right: 20%;
+		width: 7%;
 	}
 	.fb-icon {
 		float: right;
 		margin-right: 15%;
 		width: 7%;
 	}
-	.share-icon {
-		float: right; 
-		margin-right: 20%;
+	.wp-icon {
+		display: block;
+		float: right;
 		width: 7%;
+		margin-right: 10%;
 	}
+	
+	
 }
