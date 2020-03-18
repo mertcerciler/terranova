@@ -201,7 +201,9 @@ body{
 	display: inline-block;
 	margin-left: 5%;
 }
-
+.social-media-hr {
+	margin-left: 2%;
+}
 .wp-icon {
 	display: none;
 }
@@ -299,6 +301,9 @@ body{
 	.hr-dark{
 		width: 100%;
 		margin-right: 0;
+		margin-left: 5%;
+	}
+	.sc-media-hr {
 		margin-left: 5%;
 	}
 }
