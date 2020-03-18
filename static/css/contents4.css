@@ -343,8 +343,7 @@ body{
 	}
 	.wp-icon {
 		display:block;
-		float: right; 
-		margin-right: 15%;
+		right: 15%;
 		width: 10%;
 	}
 }
