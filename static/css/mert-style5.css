@@ -137,14 +137,14 @@ button a{
 	width: 84%;
 }
 .footer-sc-media {
-    display: inline-block;
+    display: inline;
 }
 .footer-inner {
-	display: inline-block;
+	display: inline;
 	margin-left: 20%;
 }
 .logo-element {
-	display: inline-block;
+	display: inline;
 	width: 20px;
 	margin: 1%;
 }
