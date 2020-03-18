@@ -389,9 +389,10 @@ button a{
 		to {height: 10%}
 	}
 	.footer {
-		margin-top: 18%;
+		margin-right: 70%;
 	}
 	.footer-inner {
-		margin-left: 5%;
+		display: block;
+		margin-left: 0;
 	}
 }
