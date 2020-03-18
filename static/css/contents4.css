@@ -303,7 +303,6 @@ body{
 	.hr-dark{
 		width: 100%;
 		margin-right: 0;
-		margin-left: 5%;
 	}
 	.sc-media-hr {
 		margin-left: 5%;
@@ -355,6 +354,6 @@ body{
 		display: block;
 		float: right;
 		width: 10%;
-		margin-right: 40%;
+		margin-right: 10%;
 	}
 }
