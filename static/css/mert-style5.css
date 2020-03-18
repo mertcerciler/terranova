@@ -388,8 +388,8 @@ button a{
 		from {height: 100%;}
 		to {height: 10%}
 	}
-	.footer {
-		margin-right: 70%;
+	.footer-sc-media {
+		margin-left: 70%;
 	}
 	.footer-inner {
 		display: block;
