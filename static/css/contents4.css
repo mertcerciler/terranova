@@ -197,6 +197,10 @@ body{
 .card-body {
 	display: inline-block;
 }
+.fb-like {
+	display: inline-block;
+	margin-left: 5%;
+}
 .wp-forward {
 	display: none;
 }
@@ -334,15 +338,19 @@ body{
     .hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
         font-size: 1.2em;
 	}
+	.fb-like {
+		display: inline-block;
+		margin-left: 2%;
+	}
 	.wp-forward {
-		display: block;
+		display:inline-block;
 		height: 15%;
 	}
 	.wp-forward a {
 		color: black;
 	}
 	.wp-icon {
-		display:block;
+		display:inline-block;
 		width: 10%;
 	}
 }
