@@ -392,6 +392,7 @@ button a{
 		margin-right: 70%;
 	}
 	.footer-inner {
+		display: block;
 		margin-left: 0;
 	}
 }
