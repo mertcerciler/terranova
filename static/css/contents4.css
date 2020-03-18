@@ -357,4 +357,8 @@ body{
 		width: 10%;
 		margin-right: 10%;
 	}
+	.fb-icon {
+		float: right;
+		margin-right: 20%;
+	}
 }
