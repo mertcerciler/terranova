@@ -209,6 +209,16 @@ body{
 .wp-icon {
 	display: none;
 }
+.share-icon {
+	float: right; 
+	margin-right: 20%;
+	width: 7%;
+}
+.fb-icon {
+	float: right;
+	margin-right: 15%;
+	width: 7%;
+}
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
 		width: 45%;
