@@ -387,9 +387,12 @@ button a{
 	@-webkit-keyframes menu-mobile-animation-2  {
 		from {height: 100%;}
 		to {height: 10%}
-	}
+    }
+    .logo-element {
+        margin-left: 7%;
+    }
 	.footer-sc-media {
-		margin-left: 70%;
+		margin-left: 60%;
 	}
 	.footer-inner {
 		display: block;
