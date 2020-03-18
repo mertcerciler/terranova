@@ -213,7 +213,7 @@ body{
 .share-icon {
 	display: inline-block;
 	width: 3%;
-	margin-left: 30%;
+	margin-left: 65%;
 }
 .fb-icon {
 	display: inline-block;
@@ -363,11 +363,11 @@ body{
 		margin-left: 5%;
 	}
 	.share-icon { 
-		width: 7%;
+		width: 9%;
 		margin-left: 20%;
 	}
 	.fb-icon {	
-		width: 7%;
+		width: 9%;
 		margin-left: 2%;
 	}
 	.wp-icon {
