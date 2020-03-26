@@ -51,3 +51,9 @@ def ssl(request):
     file_content = f.read()
     f.close()
     return HttpResponse(file_content, content_type="text/plain")
+
+def ssl2(request):
+    f = open('.well-known/pki-validation/956E762E02DDAC804B52AB5AC12A4CE8.txt', 'r')
+    file_content = f.read()
+    f.close()
+    return HttpResponse(file_content, content_type="text/plain")

@@ -9,4 +9,5 @@ urlpatterns  = [
     path('aydan-cerciler', views.aydan_cerciler, name='aydan-cerciler'),
     path('iletisim', views.iletisim, name='iletisim'),
     path('.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', views.ssl, name='ssl'),
+    path('.well-known/pki-validation/956E762E02DDAC804B52AB5AC12A4CE8.txt', views.ssl2, name='ssl2'),
 ]
