@@ -47,13 +47,13 @@ def iletisim(request):
     return render(request, 'pages/iletisim.html')
 
 def ssl(request):
-    f = open('.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', 'r')
+    f = open('templates/.well-known/pki-validation/BF8F702CAEBE3A19AD0CE7F89CEC5A27.txt', 'r')
     file_content = f.read()
     f.close()
     return HttpResponse(file_content, content_type="text/plain")
 
 def ssl2(request):
-    f = open('.well-known/pki-validation/77A783BCB04F193F30C8F5AD3287BA67.txt', 'r')
+    f = open('templates/.well-known/pki-validation/77A783BCB04F193F30C8F5AD3287BA67.txt', 'r')
     file_content = f.read()
     f.close()
     return HttpResponse(file_content, content_type="text/plain")
