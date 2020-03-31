@@ -104,7 +104,17 @@
 			  </div>
 			  {% endif %}
 		{% endfor %}
+		<div class="carousel-item">
+			<!--Mask color-->
+			<div class="view">
+				<img class="d-block w-100" src="{% static 'foto/yaratici-yazi-etkinlikleri.jpg' %}"
+				alt="Third slide">
+			  <div class="mask rgba-black-slight"></div>
+			</div>
+			<div class="carousel-caption">
 		
+			</div>
+		  </div>
 		{%for etkinlik in etkinlikler%}
 		{% if etkinlik.id == 14 %}
 		  <div class="carousel-item">
@@ -120,21 +130,16 @@
 			  </div>
 			  {% endif %}
 		{% endfor %}
-	
-	
-		  
 		  <div class="carousel-item">
 				<!--Mask color-->
 				<div class="view">
-					<img class="d-block w-100" src="{% static 'foto/yaratici-yazi-etkinlikleri.jpg' %}"
-					alt="Third slide">
+					<img class="d-block w-100" src="{% static 'foto/unnamed.jpg' %}">
 				  <div class="mask rgba-black-slight"></div>
 				</div>
 				<div class="carousel-caption">
 				 <b> <h3 class="h3-responsive animated fadeInUp delay-1s">Yaratıcı Yazı Etkinlikleri</h3></b>
 				</div>
 			  </div>
-	
 		  {%for hizmet in hizmetler%}
 		  {% if hizmet.id == 3 %}
 			<div class="carousel-item">
