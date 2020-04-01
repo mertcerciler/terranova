@@ -32,20 +32,7 @@
 						<div class="carousel-caption">
 						</div>
 		</div>
-		{%for hizmet in hizmetler%}
-		{% if hizmet.id == 4 %}
-		  <div class="carousel-item">
-			<!--Mask color-->
-			<div class="view">
-				<a href="{% url 'hizmet_ozel' hizmet.id %} " style="color: white;"><img class="d-block w-100" src="{% static 'foto/WhatsApp Image 2020-03-09 at 20.14.45.jpeg' %}"
-				alt="Third slide">
-			  <div class="mask rgba-black-slight"></div>
-			</div>
-			<div class="carousel-caption">
-			</div>
-		  </div>
-		  {% endif %}
-		  {% endfor %}
+		
 		{%for hizmet in hizmetler%}
 		{% if hizmet.id == 2 %}
 		  <div class="carousel-item">
@@ -89,20 +76,7 @@
 		  </div>
 		  {% endif %}
 		  {% endfor %}
-		{%for etkinlik in etkinlikler%}
-		{% if etkinlik.id == 15 %}
-		  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-				  <a href="{% url 'etkinlik_ozel' etkinlik.id %}" ><img class="d-block w-100" src="{% static 'foto/WhatsApp Image 2020-02-29 at 10.50.01.jpeg' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption">
-				</div></a>
-			  </div>
-			  {% endif %}
-		{% endfor %}
+		
 		<div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
