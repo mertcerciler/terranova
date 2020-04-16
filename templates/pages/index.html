@@ -54,7 +54,7 @@
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-				<a href="{% url 'hizmet_ozel' hizmet.id %}" style="color: white;"><img class="d-block w-100" src="{% static 'foto/websliderimage-03.png' %}"
+				<a href="{% url 'etkinlikler' %}" style="color: white;"><img class="d-block w-100" src="{% static 'foto/websliderimage-06.png' %}"
 				alt="Second slide">
 			  <div class="mask "></div>
 			</div>
@@ -64,37 +64,21 @@
 		  </div>
 		  {% endif %}
 		{% endfor %}
-	
-		{%for etkinlik in etkinlikler%}
-		{% if etkinlik.id == 14 %}
-		  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-				  <a href="{% url 'etkinlik_ozel' etkinlik.id %}" ><img class="d-block w-100" src="{% static 'foto/WhatsApp Image 2020-02-29 at 10.53.49.jpeg' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption">
-					<b> <h3 class="h3-responsive animated fadeInUp delay-1s">Sevilay Kartal ile Metaforik Alanda Aile Dizilimi</h3></b>
-				</div></a>
-			  </div>
-			  {% endif %}
-		{% endfor %}
 		{%for hizmet in hizmetler%}
-		  {% if hizmet.id == 1 %}
-		  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-					<img class="d-block w-100" src="{% static 'foto/vitrin01.jpg' %}">
-				  <div class="mask rgba-black-slight"></div>
-				</div>
-				<div class="carousel-caption">
-				 
-				</div>
+		{% if hizmet.id == 1 %}
+		<div class="carousel-item">
+			  <!--Mask color-->
+			  <div class="view">
+				  <img class="d-block w-100" src="{% static 'foto/websliderimage-01.png' %}">
+				<div class="mask rgba-black-slight"></div>
 			  </div>
-			  {% endif %}
-		{% endfor %}
-		  {%for hizmet in hizmetler%}
+			  <div class="carousel-caption">
+			   
+			  </div>
+			</div>
+			{% endif %}
+	  {% endfor %}		
+	  {%for hizmet in hizmetler%}
 		  {% if hizmet.id == 3 %}
 			<div class="carousel-item">
 			<!--Mask color-->
@@ -107,7 +91,17 @@
 			</div>
 		  </div>
 		  {% endif %}
-		  {% endfor %}
+	{% endfor %}
+	<div class="carousel-item">
+		<!--Mask color-->
+		<div class="view">
+			<a href="{% url 'hizmet_ozel' hizmet.id %}" style="color: white;"> <img class="d-block w-100" src="{% static 'foto/websliderimage-05.png' %}"
+			alt="Third slide">
+		  <div class="mask rgba-black-slight"></div>
+		</div>
+		<div class="carousel-caption">
+		</div>
+	  </div>
 		  {%for hizmet in hizmetler%}
 		  {% if hizmet.id == 3 %}
 		  <div class="carousel-item">
