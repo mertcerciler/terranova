@@ -250,6 +250,7 @@ button a{
 		color: #f24f20;
 		margin-bottom: 7%;
 		font-size: 3.5em;
+		margin-top: 5%;
 		font-family: 'Dancing Script', cursive;
 	}
 	.duyurular-icerik-icerik {
@@ -334,7 +335,7 @@ button a{
     #nav-mobile {
         height: 10%;
         position: fixed;
-    }
+    }w
 	.logo {
 		width: 20%;
 	}
