@@ -50,11 +50,11 @@
 		{% endif %}
 		{% endfor %}
 		{%for hizmet in hizmetler%}
-		{% if hizmet.id == 1 %}
+		{% if hizmet.id == 2 %}
 		  <div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-				<a href="{% url 'etkinlikler' %}" style="color: white;"><img class="d-block w-100" src="{% static 'foto/websliderimage-06.png' %}"
+				<a href="{% url 'hizmet_ozel' hizmet.id %}" style="color: white;"><img class="d-block w-100" src="{% static 'foto/websliderimage-03.png' %}"
 				alt="Second slide">
 			  <div class="mask "></div>
 			</div>
@@ -78,20 +78,18 @@
 			</div>
 			{% endif %}
 	  {% endfor %}		
-	  {%for hizmet in hizmetler%}
-		  {% if hizmet.id == 3 %}
 			<div class="carousel-item">
 			<!--Mask color-->
 			<div class="view">
-				<a href="{% url 'hizmet_ozel' hizmet.id %}" style="color: white;"> <img class="d-block w-100" src="{% static 'foto/websliderimage-05.png' %}"
+				<a href="{% url 'etkinlikler' %}" style="color: white;"> <img class="d-block w-100" src="{% static 'foto/websliderimage-06.png' %}"
 				alt="Third slide">
 			  <div class="mask rgba-black-slight"></div>
 			</div>
 			<div class="carousel-caption">
 			</div>
 		  </div>
-		  {% endif %}
-	{% endfor %}
+	{%for hizmet in hizmetler%}
+		{% if hizmet.id == 3 %}
 	<div class="carousel-item">
 		<!--Mask color-->
 		<div class="view">
@@ -102,75 +100,22 @@
 		<div class="carousel-caption">
 		</div>
 	  </div>
-		  {%for hizmet in hizmetler%}
-		  {% if hizmet.id == 3 %}
-		  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-					<a href="{% url 'hizmet_ozel' hizmet.id %}"> <img class="d-block w-100" src="{% static 'foto/çocuklarla-koçluk.jpg' %}"
-					alt="Third slide">
-				  <div class="mask rgba-black-slight"></div>
-				</div>
-				<div class="carousel-caption"></a>
-				</div>
-			  </div>
-			  {% endif %}
-		  {% endfor %}
-			  {% for etkinlik in etkinlikler%}
-		{% if etkinlik.id == 5 %}
-			  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-					<a href="{% url 'etkinlik_ozel' etkinlik.id %}">  <img class="d-block w-100" src="{% static 'foto/yasemin-sungur.jpg' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption"></a>
-				</div>
-			  </div>
-			  {% endif %}
-		  {% endfor %}
-			  {%for etkinlik in etkinlikler%}
-			  {% if etkinlik.id == 4 %}
-			  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-					<a href="{% url 'etkinlik_ozel' etkinlik.id %}">  <img class="d-block w-100" src="{% static 'foto/nefes.jpg' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption"></a>
-				</div>
-			  </div>
-			  {% endif %}
-		  {% endfor %}
-			  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-				<a href="https://www.martidergisi.com/kurban-misiniz-kurtarici-mi/">  <img class="d-block w-100" src="{% static 'foto/kurban-kurtar.png' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption"></a>
-			</div>
-			  </div>
+	  {% endif %}
+	{% endfor %}
+	{%for hizmet in hizmetler%}
+		{% if hizmet.id == 3 %}
+	<div class="carousel-item">
+		<!--Mask color-->
+		<div class="view">
+			<a href="{% url 'hizmet_ozel' hizmet.id %}" style="color: white;"> <img class="d-block w-100" src="{% static 'foto/websliderimage-04.png' %}"
+			alt="Third slide">
+		  <div class="mask rgba-black-slight"></div>
 		</div>
-		{%for etkinlik in etkinlikler%}
-		{% if etkinlik.id == 2 %}
-		  <div class="carousel-item">
-				<!--Mask color-->
-				<div class="view">
-				  <a href="{% url 'etkinlik_ozel' etkinlik.id %}" ><img class="d-block w-100" src="{% static 'foto/yoga-terapi.jpg' %}"
-					alt="Second slide">
-				  <div class="mask "></div>
-				</div>
-				<div class="carousel-caption">
-				</div></a>
-			  </div>
-			  {% endif %}
-		{% endfor %}
-		<!--/.Slides-->
-		<!--Controls-->
+		<div class="carousel-caption">
+		</div>
+	  </div>
+	  {% endif %}
+	{% endfor %}
 		<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
 		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Previous</span>
