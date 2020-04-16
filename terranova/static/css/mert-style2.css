@@ -23,13 +23,13 @@ button a:link, button a:hover {
 	text-align: center;
 	margin-top: 3%;
 	margin-left: 2%;
-	color: #204c89;
+	color: black;
 }
 .hayat-title2 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 5em;
 	text-align: center;
-	color: #ed6d2e;
+	color: #f24f20;
 	margin-left: 2%;
 }
 
@@ -71,7 +71,7 @@ button a:link, button a:hover {
 	list-style-image: url('../fotoğraflar/Webp.net-resizeimage-arrow.png');
 }
 .nav-bar-active a {
-	color: #ed6d2e;
+	color: #f24f20;
 }
 
 .logo-mobile, .menu-icon-mobile, #nav-mobile, #menu-mobile  {
@@ -90,14 +90,14 @@ button a{
 }
 #duyurular-baslik {
 	display: inline-block;
-	color: #ed6d2e;
+	color: #f24f20;
 	margin-left: 40%;
 	margin-bottom: 7%;
 	font-size: 5em;
 	font-family: 'Dancing Script', cursive;
 }
 .duyurular-icerik-baslik {
-	color: #ed6d2e;
+	color: #f24f20;
 	font-family: 'Courgette', cursive;
 	text-align:center;	
 	font-size: 2em;
@@ -149,10 +149,9 @@ button a{
      width: 60%;  /* The width is the width of the web page */
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1025px){
 	nav {
 		padding-bottom: 12%;
-		
 		box-shadow: none;
 	}
 	.logo {
@@ -212,7 +211,7 @@ button a{
         margin-top: 5%;
     }
 	.nav-bar-active a {
-		color:#ed6d2e;
+		color:#f24f20;
 	}
 	@keyframes menu-mobile-animation-1 {
 		from {height: 17%;}
@@ -232,16 +231,17 @@ button a{
 	}
 	.hayat-title {
 		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
+		font-size: 5em;
 		margin-top: 12%;
+		color: black;
 	}
 	.hayat-title2 {
 		font-family: 'Dancing Script', cursive;
-		font-size: 3em;
+		font-size: 5em;
 	}
 	#duyurular-baslik {
 		display: inline-block;
-		color: #ed6d2e;
+		color: #f24f20;
 		margin-left: 28%;
 		margin-bottom: 7%;
 		font-size: 3.5em;
@@ -275,6 +275,7 @@ button a{
         margin-left: 0%;
 		margin-top: 35%;
 	}
+	
 	.my-carousel-inner {
 		border-radius: 2%;
 	}
@@ -286,6 +287,15 @@ button a{
 		margin-left: 30%;
 		background: none;
 		position: fixed;
+	}
+	.hayat-title {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
+		margin-top: 12%;
+	}
+	.hayat-title2 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 3em;
 	}
 }
 

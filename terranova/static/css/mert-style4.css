@@ -122,9 +122,13 @@ button a{
 	font-style: italic;
 	margin-bottom: 30%;
 }
-
-
-
+.h3-responsive a {
+	background-color: #ec3e0c;
+	border-radius: 5%;
+	padding: 2% 4%;
+	font-style: italic;
+	color: white;
+}
 .footer {
 	background-color: white;
 	height: 20%;
@@ -143,7 +147,8 @@ button a{
 }
 #map {
 	height: 400px;  /* The height is 400 pixels */
-    width: 60%;  /* The width is the width of the web page */
+	width: 70%;  /* The width is the width of the web page */
+	margin-left: 5%;
 }
 
 @media screen and (max-width: 1025px){
@@ -382,5 +387,12 @@ button a{
 	@-webkit-keyframes menu-mobile-animation-2  {
 		from {height: 100%;}
 		to {height: 10%}
+	}
+	.footer {
+		margin-right: 70%;
+	}
+	.footer-inner {
+		display: block;
+		margin-left: 0;
 	}
 }
