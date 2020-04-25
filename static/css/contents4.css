@@ -63,7 +63,7 @@ body{
 .hizmet_ozel_icerik {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #262222eb;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-right: 30%;
 	line-height: 2em;
 	text-align: center;
@@ -91,7 +91,7 @@ body{
 .hizmet_ozel_alt_baslik {
     font-weight: bold;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: 1.7em;
     color: #28528d;
 }
@@ -131,7 +131,7 @@ body{
 .etkinlik_ozel_alt_baslik {
     font-weight: bold;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: 1.7em;
     color: #ec6c2e;
 }
@@ -175,7 +175,7 @@ body{
 .blog_ozel_alt_baslik {
     font-weight: bold;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: 1.7em;
     color: #d43328;
 }
@@ -268,7 +268,8 @@ body{
 	}
 	.hizmet_ozel_icerik {
         margin-right: 5%;
-        margin-top: 5%;
+		margin-top: 5%;
+		text-align: left;
 	}
 	.hizmet_ozel_img {
 		width: 50%;
