@@ -44,9 +44,9 @@ body{
 	float: right;
 }
 .hizmetler-madde {
-	width: 35%;
+	width: 42%;
 	min-height: 60%;
-	margin-right: 10%;
+	margin-right: 5%;
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 5%;
@@ -63,9 +63,10 @@ body{
 .hizmet_ozel_icerik {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #262222eb;
-	margin-left: 5%;
-	margin-right: 20%;
-    line-height: 2em;
+	margin-left: 20%;
+	margin-right: 30%;
+	line-height: 2em;
+	text-align: center;
     margin-top: 5%;
 }
 .hizmet-bg {

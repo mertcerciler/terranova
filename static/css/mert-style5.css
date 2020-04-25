@@ -86,11 +86,11 @@ button a{
 	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
 	background-position: 0% 600px;
 	width: 84%;
-	padding-bottom: 5%;
 }
 #duyurular-baslik {
 	display: inline-block;
-	color: #f24f20;
+    color: #f24f20;
+    margin-top: 10%;
 	margin-bottom: 4%;
 	font-size: 5em;
 	font-family: 'Dancing Script', cursive;
@@ -134,7 +134,7 @@ button a{
 	height: 20%;
 	bottom: 0;
 	position: static;
-	width: 84%;
+	min-width: 84%;
 }
 .footer-sc-media {
     display: inline;
