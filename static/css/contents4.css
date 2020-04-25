@@ -66,7 +66,6 @@ body{
 	margin-left: 15%;
 	margin-right: 30%;
 	line-height: 2em;
-	text-align: center;
     margin-top: 5%;
 }
 .hizmet-bg {
@@ -267,7 +266,8 @@ body{
 		font-size: 2em;
 	}
 	.hizmet_ozel_icerik {
-        margin-right: 5%;
+		margin-right: 5%;
+		margin-left: 5%;
 		margin-top: 5%;
 		text-align: left;
 	}
