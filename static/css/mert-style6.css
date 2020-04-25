@@ -135,7 +135,7 @@ button a{
 	height: 20%;
 	bottom: 0;
 	position: static;
-	width: 84%;
+	min-width: 84%;
 }
 .footer-sc-media {
     display: inline;
