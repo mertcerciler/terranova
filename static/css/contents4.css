@@ -197,8 +197,8 @@ body{
 .card {
 	width: 70%;
 	margin-left: 5%;
-	min-height: 500px;
-	max-height: 500px;
+	min-height: 800px;
+	max-height: 800px;
 }
 .card-body {
 	display: inline-block;
