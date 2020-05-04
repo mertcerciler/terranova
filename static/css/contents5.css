@@ -20,7 +20,7 @@ body{
 }
 .background-ozel-etkinlik {
 	z-index: -1;
-	background:linear-gradient(to right, #f1f2f3, #f0c19a) no-repeat;
+	background:linear-gradient(to right, #f1f2f3, #f8b37a) no-repeat;
 	background-position: 0% 0%;
 	width: 84%;
 	min-height: 20%;
@@ -156,7 +156,8 @@ body{
     margin-top: 5%;
     margin-left: 15%;
     font-size: 1.7em;
-    color: #ec6c2e;
+	color: #ec6c2e;
+	display: inline-block;
 }
 .etkinlik_ozel_img_2 {
 	float: left;
