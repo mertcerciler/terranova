@@ -115,6 +115,14 @@ body{
 	margin-top: 5%;
 	display: inline-block;
 }
+.hizmet_ozel_icerik_2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #262222eb;
+	margin-left: 15%;
+	margin-right: 25%;
+	line-height: 2em;
+	display: inline-block;
+}
 .hizmet-bg {
 	height: 100%;
 	width: 74%;
