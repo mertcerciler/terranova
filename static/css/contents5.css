@@ -10,6 +10,16 @@ body{
 	font-family: "Open Sans",Arial,sans-serif;
 	line-height: 2;
 }
+.background-ozel {
+	z-index: -1;
+	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+}
+.balon-img{
+	size: 20%;
+	left: 2%;
+}
 .card-text-color {
 	color: #262222eb;
 }
@@ -35,12 +45,7 @@ body{
 	line-height: 1.6;
 	margin-top: 2%;
 }
-.background-ozel {
-	z-index: -1;
-	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
-	background-position: 0% 0%;
-	width: 84%;
-}
+
 .hizmetler-button{
 	background-color: #075e93;
 	border-radius: 10%;
