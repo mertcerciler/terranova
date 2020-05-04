@@ -3,11 +3,16 @@
 {% block content %}
 
 
-<div class="hizmet-bg" style="background-image: url('/{{ etkinlik1.resim.url}}');">
+<!-- <div class="hizmet-bg" style="background-image: url('/{{ etkinlik1.resim.url}}');">
     <p class="hizmet_ozel_baslik" >{{ etkinlik1.baslik }}</p>
-</div>
+</div> -->
+<div class="background-ozel-etkinlik animated slideInLeft slower">
+    <img src="{% static 'foto/logo-balon-removebg-preview.png' %}" class="balon-img"> 
+    
+    
+    <p class="hizmet_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
+    </div>
 
-<p class="etkinlik_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
 <p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik|linebreaksbr }}</p>
 {% if etkinlik1.resim2 %}
 <img class="hizmet_ozel_img" src="/{{ etkinlik1.resim2.url }}">

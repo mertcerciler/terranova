@@ -18,6 +18,14 @@ body{
 	min-height: 20%;
 	max-height: 20%;
 }
+.background-ozel-etkinlik {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #f0c19a) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
 .balon-img{
 	width: 15%;
 	margin-left: 2%;
