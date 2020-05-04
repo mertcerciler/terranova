@@ -22,6 +22,7 @@ body{
 	width: 15%;
 	left: 2%;
 	display: inline-block;
+	padding-bottom: 5%;
 }
 .card-text-color {
 	color: #262222eb;
