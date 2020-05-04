@@ -20,7 +20,7 @@ body{
 }
 .aydan-cerciler-background {
 	z-index: -1;
-	background:linear-gradient(to right, #f1f2f3, #dd4949) no-repeat;
+	background:linear-gradient(to right, #f1f2f3, #f96640) no-repeat;
 	background-position: 0% 0%;
 	width: 84%;
 	min-height: 20%;
