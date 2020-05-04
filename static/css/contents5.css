@@ -10,6 +10,11 @@ body{
 	font-family: "Open Sans",Arial,sans-serif;
 	line-height: 2;
 }
+.aydan-foto {
+	float: left; 
+	width: 25%;
+	border-radius: 5%;
+}
 .background-ozel {
 	z-index: -1;
 	background:linear-gradient(to right, #f1f2f3, #c6e0fd) no-repeat;
