@@ -15,7 +15,7 @@ body{
 	width: 18%;
 	border-radius: 5%;
 	margin-left: 15%;
-	display: inline-block;
+	float: left;
 }
 .background-ozel {
 	z-index: -1;
@@ -114,7 +114,7 @@ body{
 	width: 50%;
 	line-height: 2em;
 	margin-top: 5%;
-	display: inline-block;
+	float: right;
 }
 .hizmet_ozel_icerik_2 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
