@@ -20,7 +20,7 @@ body{
 }
 .aydan-cerciler-background {
 	z-index: -1;
-	background:linear-gradient(to right, #f1f2f3, #c6ccd3) no-repeat;
+	background:linear-gradient(to right, #f1f2f3, #dd4949) no-repeat;
 	background-position: 0% 0%;
 	width: 84%;
 	min-height: 20%;
@@ -134,7 +134,7 @@ body{
 	display: inline-block;
 	color: #28528d;
 	font-size: 1.5em;
-	margin-left: 10%;
+	margin-left: 20%;
 }
 .hizmet_ozel_img {
 	width: 25%;
