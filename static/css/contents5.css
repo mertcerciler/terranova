@@ -18,7 +18,7 @@ body{
 	min-height: 20%;
 	max-height: 20%;
 }
-.aydan-cerciler-backgrond {
+.aydan-cerciler-background {
 	z-index: -1;
 	background:linear-gradient(to right, #f1f2f3, #97a4b3) no-repeat;
 	background-position: 0% 0%;
