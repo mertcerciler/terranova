@@ -15,7 +15,7 @@ body{
 	background:linear-gradient(to right, #c6e0fdb8, #a4bbd6b8) no-repeat;
 	background-position: 0% 0%;
 	width: 84%;
-	height: 20%;
+	min-height: 20%;
 }
 .balon-img{
 	width: 15%;
