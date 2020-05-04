@@ -126,6 +126,16 @@ body{
 	display: inline-block;
     color: #28528d;
 }
+.aydan_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+	font-size: 1.7em;
+	display: inline-block;
+	color: #28528d;
+	font-size: 1.5em;
+	margin-left: 10%;
+}
 .hizmet_ozel_img {
 	width: 25%;
 	height: 20%;
