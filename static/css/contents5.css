@@ -12,7 +12,7 @@ body{
 }
 .background-ozel {
 	z-index: -1;
-	background:linear-gradient(to right, #dcdee0, #c6e0fd) no-repeat;
+	background:linear-gradient(to right, #f1f2f3, #c6e0fd) no-repeat;
 	background-position: 0% 0%;
 	width: 84%;
 	min-height: 20%;
@@ -21,8 +21,9 @@ body{
 .balon-img{
 	width: 15%;
 	left: 2%;
+	top: 2%;
 	display: inline-block;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 .card-text-color {
 	color: #262222eb;
