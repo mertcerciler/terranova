@@ -109,8 +109,9 @@ body{
 .hizmet_ozel_icerik_1 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #262222eb;
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-right: 25%;
+	width: 50%;
 	line-height: 2em;
 	margin-top: 5%;
 	display: inline-block;
