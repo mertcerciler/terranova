@@ -16,6 +16,7 @@ body{
 	background-position: 0% 0%;
 	width: 84%;
 	min-height: 20%;
+	max-height: 20%;
 }
 .balon-img{
 	width: 15%;
