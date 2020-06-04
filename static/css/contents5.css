@@ -232,7 +232,7 @@ body{
 	margin-bottom: 2%;
 }
 .blog-madde {
-	width: 30%;
+	width: 42%;
 	min-height: 60%;
 	margin-right: 170px;
 	text-decoration: none;
@@ -349,7 +349,10 @@ body{
 	.wp-icon {
 		display: none;
 	}
-    
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
+	}
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
