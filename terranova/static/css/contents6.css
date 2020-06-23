@@ -143,10 +143,22 @@ body{
 	background-color: #020c4694;
 	border-radius: 3%;
 }
-.alt_bilgi {
+.alt_bilgi, .alt_bilgi a {
 	color: grey;
-	font-size: 0.5em;
+    font-size: 1em;
+    margin-left: 7.8%;
+    margin-top: 5%;
 }
+
+.etkinlik_ozel_alt_baslik {
+    font-weight: bold;
+    margin-left: 15%;
+    font-size: 1.7em;
+    margin-top: 0;
+	color: #ec6c2e;
+	display: inline-block;
+}
+
 .hizmet_ozel_alt_baslik {
     font-weight: bold;
     margin-top: 5%;
@@ -154,6 +166,11 @@ body{
 	font-size: 1.7em;
 	display: inline-block;
     color: #28528d;
+}
+
+.hizmet_img {
+    width: 50%;
+    margin-left: 15%;
 }
 .aydan_ozel_alt_baslik {
     font-weight: bold;

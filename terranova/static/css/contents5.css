@@ -10,6 +10,44 @@ body{
 	font-family: "Open Sans",Arial,sans-serif;
 	line-height: 2;
 }
+.aydan-foto {
+	margin-top: 5%;
+	width: 18%;
+	border-radius: 5%;
+	margin-left: 15%;
+	float: left;
+}
+.background-ozel {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #c6e0fd) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.aydan-cerciler-background {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #f96640) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.background-ozel-etkinlik {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #f8b37a) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.balon-img{
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 2%;
+	display: inline-block;
+	padding-bottom: 2%;
+}
 .card-text-color {
 	color: #262222eb;
 }
@@ -35,12 +73,7 @@ body{
 	line-height: 1.6;
 	margin-top: 2%;
 }
-.background-ozel {
-	z-index: -1;
-	background:linear-gradient(to right, #204c89, #204c89) no-repeat;
-	background-position: 0% 0%;
-	width: 84%;
-}
+
 .hizmetler-button{
 	background-color: #075e93;
 	border-radius: 10%;
@@ -73,6 +106,24 @@ body{
 	line-height: 2em;
 	margin-top: 5%;
 }
+.hizmet_ozel_icerik_1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #262222eb;
+	margin-left: 2%;
+	margin-right: 25%;
+	width: 40%;
+	line-height: 2em;
+	margin-top: 5%;
+	float: right;
+}
+.hizmet_ozel_icerik_2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #262222eb;
+	margin-left: 15%;
+	margin-right: 25%;
+	line-height: 2em;
+	display: inline-block;
+}
 .hizmet-bg {
 	height: 100%;
 	width: 74%;
@@ -92,12 +143,27 @@ body{
 	background-color: #020c4694;
 	border-radius: 3%;
 }
+.alt_bilgi {
+	color: grey;
+	font-size: 0.5em;
+}
 .hizmet_ozel_alt_baslik {
     font-weight: bold;
     margin-top: 5%;
     margin-left: 15%;
-    font-size: 1.7em;
+	font-size: 1.7em;
+	display: inline-block;
     color: #28528d;
+}
+.aydan_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+	font-size: 1.7em;
+	display: inline-block;
+	color: #28528d;
+	font-size: 1.5em;
+	margin-left: 20%;
 }
 .hizmet_ozel_img {
 	width: 25%;
@@ -137,7 +203,8 @@ body{
     margin-top: 5%;
     margin-left: 15%;
     font-size: 1.7em;
-    color: #ec6c2e;
+	color: #ec6c2e;
+	display: inline-block;
 }
 .etkinlik_ozel_img_2 {
 	float: left;
@@ -169,7 +236,7 @@ body{
 	margin-bottom: 2%;
 }
 .blog-madde {
-	width: 30%;
+	width: 42%;
 	min-height: 60%;
 	margin-right: 170px;
 	text-decoration: none;
@@ -286,7 +353,10 @@ body{
 	.wp-icon {
 		display: none;
 	}
-    
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
+	}
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -329,6 +399,10 @@ body{
 	.sc-media-hr {
 		margin-left: 5%;
 		width: 90%;
+	}
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
 	}
 }
 
@@ -385,5 +459,9 @@ body{
 		display: inline-block;
 		width: 5%;
 		margin-left:2%;
+	}
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
 	}	
 }
