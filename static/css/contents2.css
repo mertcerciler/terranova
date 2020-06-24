@@ -353,7 +353,12 @@ body{
 	.hizmet_ozel_baslik {
 		font-size: 2em;
 	}
-	.alt_bilgi, .alt_bilgi a {
+	.alt_bilgi {
+		margin-left: 2.7%;
+		font-size: 0.8em;
+	}
+
+	.alt_bilgi a {
 		margin-left: 2.7%;
 		font-size: 0.8em;
 	}
