@@ -156,7 +156,7 @@ body{
     font-size: 1.7em;
     margin-top: 0;
 	color: #ec6c2e;
-	display: inline-block;
+	
 }
 
 .hizmet_ozel_alt_baslik {
@@ -215,14 +215,7 @@ body{
 	color: #ec6c2e;
 	margin-bottom: 2%;
 }
-.etkinlik_ozel_alt_baslik {
-    font-weight: bold;
-    margin-top: 5%;
-    margin-left: 15%;
-    font-size: 1.7em;
-	color: #ec6c2e;
-	display: inline-block;
-}
+
 .etkinlik_ozel_img_2 {
 	float: left;
 	margin-left: 5%;
@@ -289,6 +282,11 @@ body{
 }
 .card-body {
 	display: inline-block;
+}
+.fb-like-etkinlik {
+    margin-left: 5%;
+    display: block;
+	margin-top: 2%;
 }
 .fb-like {
 	display: inline-block;

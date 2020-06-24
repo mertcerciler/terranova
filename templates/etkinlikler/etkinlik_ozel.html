@@ -13,11 +13,14 @@
     
     <p class="etkinlik_ozel_alt_baslik">{{etkinlik1.baslik}}</p>
     </div> -->
-    <p class="alt_bilgi"><a href="{% url 'etkinlikler' %}"> Etkinlikler</a> <span style="margin-left: 0.8%;"></span>  > <span style="margin-left: 0.8%;"></span>  {{ etkinlik1.baslik}}</p>
-    <h1 class="etkinlik_ozel_alt_baslik"> {{etkinlik1.baslik}}</h1>
     
+    <h1 class="etkinlik_ozel_alt_baslik"> {{etkinlik1.baslik}}</h1>
+    <p class="alt_bilgi"><a href="{% url 'etkinlikler' %}"> Etkinlikler</a> <span style="margin-left: 0.8%;"></span>  > <span style="margin-left: 0.8%;"></span>  {{ etkinlik1.baslik}}</p>
     <img src="/{{etkinlik1.resim.url}}" class="hizmet_img">
-<p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik|linebreaksbr }}</p>
+    <br>
+   
+    
+    <p class="hizmet_ozel_icerik"> {{ etkinlik1.icerik|linebreaksbr }}</p>
 {% if etkinlik1.resim2 %}
 <img class="hizmet_ozel_img" src="/{{ etkinlik1.resim2.url }}">
 {% endif %}
