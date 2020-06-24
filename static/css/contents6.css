@@ -351,10 +351,20 @@ body{
 	.hizmet_ozel_baslik {
 		font-size: 2em;
 	}
+	.alt_bilgi, .alt_bilgi a {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	.etkinlik_ozel_alt_baslik{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
 
 	.hizmet_img {
 		width: 70%;
-		
+		margin-right: 5%;
+		margin-left: 5%;
 	}
 	.hizmet_ozel_icerik {
 		margin-right: 5%;
