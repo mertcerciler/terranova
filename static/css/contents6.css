@@ -433,6 +433,10 @@ body{
 		width: 100%;
 		margin-top: 10%;
 	}
+
+	.etkinlik_ozel_alt_baslik{
+		margin-top: 8%;
+	}
 }
 
 @media screen and (max-width: 600px) {
