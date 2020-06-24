@@ -1,3 +1,4 @@
+
 body{
 	background-color: white;
 }
@@ -8,6 +9,44 @@ body{
 	font-size: 1em;
 	font-family: "Open Sans",Arial,sans-serif;
 	line-height: 2;
+}
+.aydan-foto {
+	margin-top: 5%;
+	width: 18%;
+	border-radius: 5%;
+	margin-left: 15%;
+	float: left;
+}
+.background-ozel {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #c6e0fd) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.aydan-cerciler-background {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #f96640) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.background-ozel-etkinlik {
+	z-index: -1;
+	background:linear-gradient(to right, #f1f2f3, #f8b37a) no-repeat;
+	background-position: 0% 0%;
+	width: 84%;
+	min-height: 20%;
+	max-height: 20%;
+}
+.balon-img{
+	width: 15%;
+	margin-left: 2%;
+	margin-top: 2%;
+	display: inline-block;
+	padding-bottom: 2%;
 }
 .card-text-color {
 	color: #262222eb;
@@ -43,9 +82,9 @@ body{
 	float: right;
 }
 .hizmetler-madde {
-	width: 35%;
+	width: 42%;
 	min-height: 60%;
-	margin-right: 170px;
+	margin-right: 5%;
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 5%;
@@ -62,27 +101,97 @@ body{
 .hizmet_ozel_icerik {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #262222eb;
-	margin-left: 5%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 30%;
 	line-height: 2em;
+	margin-top: 5%;
 }
-.hizmet_ozel_title {
+.hizmet_ozel_icerik_1 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 2em;
+	color: #262222eb;
+	margin-left: 2%;
+	margin-right: 25%;
+	width: 40%;
+	line-height: 2em;
+	margin-top: 5%;
+	float: right;
+}
+.hizmet_ozel_icerik_2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #262222eb;
+	margin-left: 15%;
+	margin-right: 25%;
+	line-height: 2em;
+	display: inline-block;
+}
+.hizmet-bg {
+	height: 100%;
+	width: 74%;
+	padding: 5%;
+	border-radius: 1%;
+	margin-left: 5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+.hizmet_ozel_baslik {
+	color: white;
 	text-align: center;
-	margin-right: 7%;
-	margin-top: 4%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	background-color: #020c4694;
+	border-radius: 3%;
+}
+.alt_bilgi, .alt_bilgi a {
+	color: grey;
+    font-size: 1em;
+    margin-left: 7.8%;
+}
+.alt_bilgi a {
+	text-decoration: underline;
+}
+.etkinlik_ozel_alt_baslik {
+    font-weight: bold;
+    margin-left: 15%;
+    font-size: 1.7em;
+    margin-top: 5%;
+	color: #ec6c2e;
+	
+}
+
+.hizmet_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+	font-size: 1.7em;
+	display: inline-block;
+    color: #28528d;
+}
+
+.hizmet_img {
+    width: 50%;
+    margin-left: 15%;
+}
+.aydan_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+	font-size: 1.7em;
+	display: inline-block;
 	color: #28528d;
-	margin-bottom: 2%;
+	font-size: 1.5em;
+	margin-left: 20%;
 }
 .hizmet_ozel_img {
-	width: 35%;
+	width: 25%;
+	height: 20%;
 	margin-left: 29%;
 	border-radius: 5%;
 	margin-top: 4%;
 	margin-bottom: 4%;
+	background-color: rgba(52, 73, 94, 0.75);
 }
-
 
 .title-etkinlik {
 	color: #ec6c2e;
@@ -107,6 +216,7 @@ body{
 	color: #ec6c2e;
 	margin-bottom: 2%;
 }
+
 .etkinlik_ozel_img_2 {
 	float: left;
 	margin-left: 5%;
@@ -137,12 +247,70 @@ body{
 	margin-bottom: 2%;
 }
 .blog-madde {
-	width: 30%;
+	width: 42%;
 	min-height: 60%;
 	margin-right: 170px;
 	text-decoration: none;
 	display: inline-block;
 	padding-bottom: 5%;
+}
+.blog_ozel_alt_baslik {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 1.7em;
+    color: #d43328;
+}
+.title-iletisim {
+	color: #28528d;
+	font-family: "Dancing Script",Arial,sans-serif;
+	margin-left: 8%;
+	line-height: 1.6;
+	margin-top: 2%;
+}
+.iletisim-icon{
+	width: 50px;
+	display: inline-block;
+}
+.iletisim-icon-media {
+	width: 50px;
+	display: inline-block;
+	margin-left: 30%;
+}
+.card {
+	width: 70%;
+	margin-left: 5%;
+}
+.card-body {
+	display: inline-block;
+}
+.fb-like-etkinlik {
+    margin-left: 5%;
+    display: block;
+	margin-top: 2%;
+}
+.fb-like {
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.sc-media-hr {
+	margin-left: 2%;
+	width: 80%;
+}
+.wp-icon {
+	display: none;
+	margin-left: 5%;
+}
+.share-icon {
+	display: inline-block;
+	width: 3%;
+	margin-left: 55%;
+}
+.fb-icon {
+	display: inline-block;
+	width: 3%;
+	margin-left: 5%;
 }
 @media screen and (max-width: 1025px){
 	.hizmetler-madde, .blog-madde {
@@ -176,6 +344,49 @@ body{
 		display: inline-block;
 		padding-bottom: 5%;
 	}
+	.hizmet-bg {
+		margin-top: 5%;
+		width: 100%;
+		margin-left: 0;	
+		padding: 10% 0%;
+	}
+	.hizmet_ozel_baslik {
+		font-size: 2em;
+	}
+	.alt_bilgi, .alt_bilgi a {
+		margin-left: 2.7%;
+	}
+
+	.etkinlik_ozel_alt_baslik{
+		margin-left: 5%;
+		font-size: 2em;
+	}
+
+	.hizmet_img {
+		width: 70%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.hizmet_ozel_icerik {
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-top: 5%;
+		text-align: left;
+	}
+	.hizmet_ozel_img {
+		width: 50%;
+		margin-left: 10%;
+	}
+	.wp-forward {
+		display: none;
+	}
+	.wp-icon {
+		display: none;
+	}
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
+	}
 }
 @media screen and (max-width: 768px){
 	.title-etkinlik, #title {
@@ -189,6 +400,44 @@ body{
 		margin-left: 5%;
         padding-bottom: 5%;
         margin-bottom: 15%;
+	}
+	.hizmet-bg {
+		margin-top: 6%;
+		width: 100%;
+		margin-left: 0;
+		padding: 10% 0%;
+	}
+	.hizmet_ozel_baslik {
+		font-size: 1.3em;
+		font-weight: bold;
+    }
+    .hizmet_ozel_icerik {
+        margin-right: 2%;
+        margin-top: 10%;
+	}
+	.hizmet_ozel_img {
+		width: 70%;
+		margin-left: 10%;
+	}
+	.hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
+        font-size: 1.2em;
+	}
+	.hr-dark{
+		width: 100%;
+		margin-right: 0;
+	}
+	.sc-media-hr {
+		margin-left: 5%;
+		width: 90%;
+	}
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.etkinlik_ozel_alt_baslik{
+		margin-top: 8%;
+		font-size: 2.3em;
 	}
 }
 
@@ -204,5 +453,54 @@ body{
 		margin-left: 0px;
         padding-bottom: 5%;
         margin-bottom: 15%;
+    }
+    .hizmet_ozel_title, .etkinlik_ozel_title, .blog_ozel_title {
+        margin-top: 10%;
 	}
+	.hizmet-bg {
+		margin-top: 6%;
+		width: 100%;
+		margin-left: 0;
+		padding: 10% 0%;
+	}
+	.hizmet_ozel_baslik {
+		font-size: 1.3em;
+		font-weight: bold;
+    }
+    .hizmet_ozel_icerik {
+        margin-right: 2%;
+        margin-top: 10%;
+	}
+	.hizmet_ozel_img {
+		width: 70%;
+		margin-left: 10%;
+	}
+
+	.hizmet_img {
+		width: 80%;	
+	}
+    .hizmet_ozel_alt_baslik, .etkinlik_ozel_alt_baslik, .blog_ozel_alt_baslik {
+        font-size: 1.2em;
+	}
+	.fb-like {
+		display: inline-block;
+		margin-left: 5%;
+	}
+	.share-icon { 
+		width: 9%;
+		margin-left: 20%;
+	}
+	.fb-icon {	
+		width: 9%;
+		margin-left: 2%;
+	}
+	.wp-icon {
+		display: inline-block;
+		width: 5%;
+		margin-left:2%;
+	}
+	.background-ozel-etkinlik, .background-ozel, .aydan-cerciler-background {
+		width: 100%;
+		margin-top: 10%;
+	}	
 }
