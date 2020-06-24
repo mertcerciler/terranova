@@ -149,6 +149,9 @@ body{
     margin-left: 7.8%;
 }
 
+.alt_bilgi a {
+	text-decoration: underline;
+}
 .etkinlik_ozel_alt_baslik {
     font-weight: bold;
     margin-left: 15%;
