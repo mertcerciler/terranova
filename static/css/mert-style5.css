@@ -167,7 +167,7 @@ button a{
 	.logo-mobile {
 		margin-top: 4%;
 		display: block;
-		width: 20%;
+		width: 15%;
 		float: left;
         z-index: 2;
 	}
@@ -335,7 +335,7 @@ button a{
     #nav-mobile {
         height: 10%;
         position: fixed;
-    }w
+    }
 	.logo {
 		width: 20%;
 	}
