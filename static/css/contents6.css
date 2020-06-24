@@ -148,7 +148,6 @@ body{
     font-size: 1em;
     margin-left: 7.8%;
 }
-
 .alt_bilgi a {
 	text-decoration: underline;
 }
@@ -360,6 +359,7 @@ body{
 
 	.etkinlik_ozel_alt_baslik{
 		margin-left: 5%;
+		font-size: 2em;
 	}
 
 	.hizmet_img {
@@ -437,6 +437,7 @@ body{
 
 	.etkinlik_ozel_alt_baslik{
 		margin-top: 8%;
+		font-size: 2.3em;
 	}
 }
 
